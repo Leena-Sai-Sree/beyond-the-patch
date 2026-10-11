@@ -10,8 +10,7 @@
 | Role | Graduate Researcher |
 | Institution | Saint Louis University |
 | School | School for Professional Studies |
-| Initiative | SPS Corps – Analytics Initiative |
-| Supervisor | Maria Weber, Program Director of Information Systems |
+| Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
 | Research status | Initial planning and conceptual analysis |
 | Repository visibility | Private |
