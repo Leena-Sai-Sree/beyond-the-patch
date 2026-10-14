@@ -3,7 +3,7 @@
 ## Evaluating Evidence Requirements for Closing Known-Exploited Vulnerabilities
 
 **Working research title**
-
+ 
 | Project detail | Information |
 |---|---|
 | Researcher | Leena Sai Sree Maridi |
@@ -13,7 +13,7 @@
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
 | Research status | Initial planning and conceptual analysis |
-| Repository visibility | Private |
+| Repository visibility | Private | 
 
 ## Project Overview
 
