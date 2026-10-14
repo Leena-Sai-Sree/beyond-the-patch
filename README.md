@@ -1,4 +1,4 @@
-# Beyond the Patch
+# Beyond the Patch 
 
 ## Evaluating Evidence Requirements for Closing Known-Exploited Vulnerabilities
 
