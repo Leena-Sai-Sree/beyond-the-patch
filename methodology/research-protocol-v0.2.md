@@ -5,6 +5,7 @@
 **Researcher:** Leena Sai Sree Maridi, Saint Louis University
 
 ## 1. Objective and questions
+
 Identify and characterize recurring **gaps**, **ambiguities**, and **inconsistencies** in publicly accessible official guidance concerning possible prior exploitation and evidence-supported closure of selected CISA Known Exploited Vulnerabilities (KEV).
 
 1. Which applicable response and closure evidence categories are covered by eligible guidance?
@@ -13,6 +14,7 @@ Identify and characterize recurring **gaps**, **ambiguities**, and **inconsisten
 4. What provisional closure-decision checklist can be derived without asserting that patching proves absence of compromise?
 
 ## 2. Design and scope
+
 Structured qualitative document analysis, supplemented by descriptive counts. The **sampling frame** is a dated snapshot of CISA's KEV Catalog; record the download URL, snapshot date, and source cutoff. Target **5 pilot CVEs + up to 20 additional CVEs**, subject to feasibility. This is a purposive, nonrepresentative sample: do not generalize prevalence estimates to all KEV entries.
 
 Only publicly accessible official sources are eligible: affected-product vendor advisories and vendor technical/forensic guidance, government cybersecurity agencies, and recognized national or sector CSIRTs. Official guidance linked from an eligible source is included only if it contains relevant CVE-specific or explicitly referenced incident-response instructions. Record links and source boundaries; do not follow unlimited link chains.
@@ -20,11 +22,13 @@ Only publicly accessible official sources are eligible: affected-product vendor 
 Exclude commercial summaries, media coverage, personal blogs, unsupported claims, and documents published after the frozen source cutoff. Third-party material may be used as discovery leads but not scored. Record unavailable documents; do not interpret absence of access as absence of guidance.
 
 ## 3. Units of analysis
+
 **Primary coding unit:** one *document × CVE × evidence category (E1–E7)* record. If a document covers multiple CVEs, create separate records for each relevant CVE. Capture exact section/location and a short paraphrase, not long copyrighted passages. A document may contain several passages supporting one record.
 
 **Secondary synthesis unit:** *CVE × evidence category*. Aggregate eligible documents for the same CVE, preserving which source provided which instruction. Do not infer that an individual advisory must cover all seven categories.
 
 ## 4. Sampling procedure (working)
+
 1. Freeze and save a dated KEV Catalog snapshot.
 2. Restrict to entries added on or before the snapshot date and with an identifiable affected vendor/product and CVE.
 3. Create a candidate register with product category, vulnerability class, KEV date, official vendor link, and government/CSIRT source availability.
@@ -35,11 +39,23 @@ Exclude commercial summaries, media coverage, personal blogs, unsupported claims
 The sampling period, product-category definitions, and precise diversity quotas will be frozen after the pilot; do not present these as final.
 
 ## 5. Source retrieval and provenance
+
 For every document capture: source_id, CVE, publisher, document title, canonical URL, document type, original publication date, last update date if shown, access date, source-cutoff eligibility, relevant section/heading, and archived/saved reference where permitted. Record whether the source is a vendor, government, or CSIRT document. A vendor advisory's linked generic guidance is not automatically CVE-specific; annotate its relationship.
 
 If a page is updated after the cutoff, document the uncertainty about historical content; do not silently treat the current page as the historical version.
 
+### Source retrieval consistency
+
+To maintain a consistent retrieval procedure across sampled CVEs, source collection will begin with the CISA KEV entry, the affected vendor's official security advisory, and relevant official government or CSIRT guidance. The researcher will also review directly linked official technical or incident-response documents when they contain CVE-specific instructions or are explicitly referenced as applicable response guidance.
+
+The same source-discovery procedure will be applied to every sampled CVE. Retrieval will be considered complete for a CVE when the defined source categories and eligible direct links have been screened, with the search date, sources included, and relevant access limitations documented.
+
+If an official source is inaccessible, superseded, or updated without an available historical version, this limitation will be recorded. Such circumstances will not automatically be interpreted as an absence of guidance.
+
+The procedure will be tested during the pilot and finalized before main-study coding.
+
 ## 6. Evidence taxonomy
+
 - **E1 Exposure:** affected configurations, asset reachability, exposure period.
 - **E2 Exploitation:** logs, indicators, detection/investigation procedures.
 - **E3 Containment:** isolation, access restrictions, verification of containment.
@@ -49,6 +65,7 @@ If a page is updated after the cutoff, document the uncertainty about historical
 - **E7 Closure:** documentation, unresolved uncertainty, residual-risk disposition, approval or closure criteria.
 
 ## 7. Applicability and scoring
+
 Applicability is assessed **independently** of source coverage: A1 Applicable; A2 Not applicable; A3 Conditional (record trigger and whether established); A4 Undetermined (record why). Do not treat A2 as a zero or include it in applicable-category denominators. A3 without a confirmed trigger and A4 are analyzed separately, not automatically counted as gaps.
 
 For A1 categories, record two separate ordinal scores for each document-category record:
@@ -63,7 +80,15 @@ For A1 categories, record two separate ordinal scores for each document-category
 Score 0 means **not identified in the eligible reviewed source**, not that no guidance exists elsewhere. A 3 in evidence specificity does not prove the evidence is sufficient to establish non-compromise. Quote/locate the supporting passage and record rationale. For A2, A3-unresolved, and A4 use `NA` for numerical scores unless explicit conditional guidance is separately annotated; do not force a 0.
 
 ## 8. Synthesis and comparisons
-At CVE level, preserve source-level scores and report the highest observed coverage **with source attribution**, rather than summing ordinal scores. Flag where a relevant category has no identified guidance in the *defined reviewed source set*, with applicability and search limitations attached. Distinguish:
+
+At the CVE level, retain all document-level applicability classifications, actionability scores, evidence-specificity scores, and source references. For each applicable evidence category, report the highest observed actionability score and highest observed evidence-specificity score as separate descriptive indicators of the strongest identified guidance within the defined source set.
+
+These two maximum scores may originate from different documents and must not be interpreted as a single integrated response procedure. The synthesis will also document differences between sources, conditional instructions, unresolved ambiguities, and any apparent conflicts requiring contextual interpretation.
+
+Maximum scores indicate the strongest guidance identified within the reviewed sources; they do not establish that the combined guidance is complete, mutually compatible, or sufficient to justify closure of a specific vulnerability case.
+
+Flag where a relevant category has no identified guidance in the *defined reviewed source set*, with applicability and search limitations attached. Distinguish:
+
 - **Coverage gap:** applicable category with no relevant identified instruction/evidence within the defined source set.
 - **Ambiguity:** instruction exists but scope, trigger, execution, or evidence expectations are unclear.
 - **Potential inconsistency:** apparently conflicting or materially different recommendations for a comparable scenario; investigate differences in product version, time, threat model, and publication date before labeling a substantive inconsistency.
@@ -71,15 +96,19 @@ At CVE level, preserve source-level scores and report the highest observed cover
 Report counts using explicit denominators, e.g., applicable CVE-category pairs, and do not calculate inferential confidence intervals for a purposive sample. Preserve both document-level and CVE-level comparisons.
 
 ## 9. Pilot and quality control
+
 Use five CVEs to test retrieval time, category boundaries, conditional cases, score anchoring, and source attribution. Record coding memos and all revisions in a change log. Recode pilot cases under the frozen protocol before combining with main-study records. If a second coder is available, independently code a subset and report agreement appropriate to the final design; otherwise disclose single-coder limitations and perform a delayed self-recode of a small subset without calling it independent agreement.
 
 ## 10. Ethics, limits, and closure
+
 Use only public documentation; do not exploit vulnerabilities or inspect production assets. This study evaluates *published guidance*, not actual vendor competence or asset compromise. Closure is analyzed as (1) remediation verified, (2) compromise-response disposition documented, and (3) administrative closure authorized. Uncertainty and residual-risk acceptance can be documented without claiming proof of no compromise.
 
 ## 11. Open protocol items
+
 Freeze the KEV snapshot date and document cutoff, final product-category strata, treatment of generic linked guidance, precise conditional scoring examples, aggregation summaries, and full sampling roster **before main coding**. Supervisor review is desirable, but empirical completion is not claimed.
 
 ## 12. Deliverables and sequencing
+
 1. Source register and candidate selection log.
 2. Coding guide v0.2 and five-CVE pilot roster.
 3. Five-CVE pilot records and revision memo.
