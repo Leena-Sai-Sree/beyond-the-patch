@@ -1,5 +1,6 @@
 # Beyond the Patch — Coding Guide v0.2
-**Date:** 2026-10-15 | **Status:** Working draft; examples hypothetical
+**Date:** 2026-10-15 
+**Status:** Working draft;
 
 ## Coding sequence
 1. Verify CVE is in the frozen KEV snapshot.
