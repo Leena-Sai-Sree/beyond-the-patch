@@ -1,5 +1,5 @@
 # Five-CVE Pilot Selection Plan
-**Status:** Selection criteria established; CVEs not yet selected or analyzed.
+**Status:** Selection criteria established
 
 ## Purpose
 Test the coding framework rather than prove the research hypothesis. Use the official CISA KEV Catalog as the candidate frame and retain its retrieval date.
