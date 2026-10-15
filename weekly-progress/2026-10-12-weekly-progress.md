@@ -14,6 +14,4 @@
 
 **Next steps:** Define coding unit and source boundaries; prepare protocol v0.2 and pilot selection criteria; begin focused literature review.
 
-**Actual hours worked:** _Enter from your own time records._
-
 **Limitations:** Methodological planning only. No pilot coding or empirical findings are claimed for this date.
