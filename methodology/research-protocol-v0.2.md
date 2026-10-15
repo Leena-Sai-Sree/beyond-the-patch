@@ -1,7 +1,7 @@
 # Beyond the Patch — Research Protocol v0.2
 
 **Date:** 2026-10-15  
-**Status:** Working protocol; not pilot-tested or supervisor-approved  
+**Status:** Working protocol  
 **Researcher:** Leena Sai Sree Maridi, Saint Louis University
 
 ## 1. Objective and questions
