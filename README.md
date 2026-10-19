@@ -227,9 +227,3 @@ timing, and limitations of the review will be considered.
 
 Any resulting checklist will support documented decision-making rather
 than guarantee that an asset is free from compromise.
-
-## Sharing
-
-This repository remains private during research development.
-External sharing and public release will follow applicable supervisor
-and institutional requirements.
