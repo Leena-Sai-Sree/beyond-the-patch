@@ -3,7 +3,7 @@
 **Project:** Beyond the Patch  
 **Updated:** 2026-11-03; October 28 selection retained
 
-**Status (updated 2026-11-03):** Seven candidates screened; five selected; PAN-OS first-pass coding recorded; MOVEit supplement started; pilot retrieval incomplete
+**Status (updated 2026-11-03):** Seven candidates screened; five selected; PAN-OS and MOVEit first-pass coding recorded; remaining three cases not yet coded
 
 ## Method and Sampling Frame
 
@@ -71,7 +71,7 @@ Categories are analytical deployment labels, not claims that a product can only 
 
 ## Retrieval Limitations and Remaining Work
 
-The October 28 starting register was subsequently expanded for PAN-OS; its bounded first-pass source review and 70 original coding records are documented. A separate [November 3 MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) has 21 draft records, with direct links still pending. The other three cases retain starting sources. The full five-case source set is incomplete.
+The October 28 starting register was subsequently expanded for PAN-OS; its bounded first-pass source review and 70 original coding records are documented. A separate [November 3 MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) has 84 first-pass records across 12 document units; bounded screening is complete with access/version limitations. The other three cases retain starting sources. The full five-case source set is incomplete.
 
 Direct CISA advisory access returned HTTP 403 in the browsing interface. This is an access limitation, not evidence of absent guidance. The official KEV dataset was accessible through CISA's GitHub repository.
 

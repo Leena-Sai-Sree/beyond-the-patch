@@ -138,8 +138,8 @@ The capture directory is a local evidence location, not an assertion that raw pa
 The October 28 source entries, dates and capture claims above remain historical records. New live renderings do not replace them.
 
 - [PAN-OS targeted review](../research-notes/2026-11-03-pan-os-review.md) registers N3400-S001 and N3400-S006 through N3400-S013 as November 3 observations related to the original versions. Current S009 recovery metadata shows an October 29 update; its rendering is not substituted for the older source.
-- [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) registers N34362-S001 through N34362-S003, dates, sections, access limitations and pending direct links.
-- All new page observations use web-rendered review; full raw captures are not claimed. Original PAN-OS HTML capture files are absent from this checkout.
+- [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) registers N34362-S001 through N34362-S012, with 84 first-pass coding records, source dates, section locators and a completed screening log. Inaccessible guidance and version-mismatched manuals remain explicit limitations.
+- All new live-source observations use rendered web/PDF review; full raw captures are not claimed. Original PAN-OS HTML capture files are absent from this checkout.
 - The [data quality report](../analysis/data-quality-report.md) distinguishes snapshot byte identity from line-ending conversion in a Windows checkout.
 
 Temporal policy and scenario/facet clarifications are in the [v0.3 pilot draft](../methodology/pilot-rules-v0.3-draft.md). The full five-case source set is not complete.

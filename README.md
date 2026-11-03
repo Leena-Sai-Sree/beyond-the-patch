@@ -180,8 +180,8 @@ Status updated 2026-11-03:
 - A [targeted November 3 source review](research-notes/2026-11-03-pan-os-review.md)
   identifies interpretation and source-version issues; original scores are preserved.
 - [MOVEit CVE-2023-34362 supplemental coding](data/moveit-pilot-supplement-2026-11-03.md)
-  contains 21 draft records for three official document versions. Direct-link
-  retrieval remains incomplete.
+  contains 84 first-pass records for 12 document units. The bounded source
+  review is complete with documented access and version limitations.
 - Outlook CVE-2023-23397, Print Spooler CVE-2021-34527 and Log4j
   CVE-2021-44228 retain starting source records and remain uncoded.
 - An [initial related-work matrix](research-notes/related-work-initial-review.md)
@@ -195,8 +195,8 @@ still in progress.
 
 1. Complete the PAN-OS verification queue and apply consistent scenario,
    E4/E6/E7 and source-version rules.
-2. Finish MOVEit eligible linked-source retrieval and revise its provisional summary.
-3. Retrieve and code the remaining three selected cases, recording actual work time.
+2. Verify the MOVEit records and resolve any coding changes raised by review.
+3. Begin Outlook, then Print Spooler and Log4j, recording actual work time.
 4. Write the full pilot revision memo and freeze the method after resolving open items.
 5. Size/select the main study using observed effort; complete related-work appraisal.
 6. Produce comparative findings, a traceable closure checklist and the agreed

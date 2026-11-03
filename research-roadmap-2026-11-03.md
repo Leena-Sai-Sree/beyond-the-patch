@@ -4,13 +4,13 @@ Planning horizon: appointment ends 2026-12-18
 Status: Working schedule; weekly capacity and final submission requirements to be confirmed
 
 ## Immediate outcome
-A reviewed five-case pilot and a stable, reproducible method are the next milestone. The November 3 package supplies targeted PAN-OS review, draft operational rules, initial MOVEit coding, a related-work seed review and synchronized progress records. It does not complete the five-case pilot or validate an empirical result.
+A reviewed five-case pilot and a stable, reproducible method are the next milestone. The November 3 package supplies targeted PAN-OS review, draft operational rules, bounded MOVEit first-pass analysis, a related-work seed review and synchronized progress records. It does not complete the five-case pilot or validate an empirical result.
 
 ## Sequence and completion criteria
 | Proposed dates | Work | Evidence of completion |
 |---|---|---|
-| Nov 3–6 | Researcher reviews PAN-OS disputed records and v0.3 choices; retrieve pending MOVEit links | Review decisions linked to record IDs; accepted scenario/E7/version policy; MOVEit search log |
-| Nov 7–13 | Complete MOVEit, Outlook, Print Spooler and Log4j pilot retrieval/coding; continue related-work full-text review | Five bounded source sets, traceable records/summaries, actual timing for new work |
+| Nov 3–6 | Researcher reviews PAN-OS disputed records and v0.3 choices; verify the completed MOVEit first-pass records | Review decisions linked to record IDs; accepted scenario/E7/version policy; MOVEit search log |
+| Nov 7–13 | Review MOVEit coding; complete Outlook, Print Spooler and Log4j retrieval/coding; continue related-work full-text review | Five bounded source sets, traceable records/summaries, actual timing for new work |
 | Nov 14–16 | Pilot revision memo, delayed self-recode or independent subset review; main-sample feasibility decision | Frozen protocol version, change log, recoding list and documented scope decision |
 | Nov 17–30 | Main study at feasible scale; draft methods and results in parallel | Completed main-case records, explicit denominators, qualitative memos and review log |
 | Dec 1–7 | Analysis, draft evidence-oriented checklist and full paper/report | Results tied to source records; checklist separates source-derived items from researcher recommendations |
@@ -40,5 +40,5 @@ The researcher/supervisor should resolve:
 Review can proceed on completed work while these answers are collected. Record any feedback alongside the relevant method decisions.
 
 ## Known remaining work
-The five-case pilot is not finished. MOVEit has an initial three-document supplement, not completed direct-link retrieval. Full-text literature appraisal, independent coding review and main-study analysis remain outstanding. Historical PAN-OS capture files must be located if October 28 semantic verification is required.
+The five-case pilot is not finished. MOVEit now has 84 first-pass records across 12 document units, with access and version limitations documented. Researcher verification remains outstanding. Full-text literature appraisal, independent coding review and main-study analysis remain outstanding. Historical PAN-OS capture files must be located if October 28 semantic verification is required.
 

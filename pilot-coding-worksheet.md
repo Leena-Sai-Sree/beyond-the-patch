@@ -8,7 +8,7 @@
 
 ## November 3 status note
 
-This file preserves the October 28 PAN-OS 70-record series and its numeric scores. See the [targeted review](../research-notes/2026-11-03-pan-os-review.md) for version/interpretation issues and the separate [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) for new coding. Three pilot cases remain uncoded; MOVEit retrieval is incomplete. The review-status labels have been standardized; scores and supporting analytical fields are retained.
+This file preserves the October 28 PAN-OS 70-record series and its numeric scores. See the [targeted review](../research-notes/2026-11-03-pan-os-review.md) for version/interpretation issues and the separate [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) for new coding. Three pilot cases remain uncoded. MOVEit bounded screening and first-pass coding are complete with access/version limitations; its 84 records remain subject to researcher verification. The review-status labels have been standardized; scores and supporting analytical fields are retained.
 
 ## Purpose
 

@@ -38,10 +38,10 @@ Scope: Entire tracked repository inventory; targeted external-source review, ind
 | KEV entry dates | PASS | All dateAdded values are formatted and on/before the retained selection date |
 | Five selected cases present | PASS | CVE-2024-3400, CVE-2023-34362, CVE-2023-23397, CVE-2021-34527, CVE-2021-44228 |
 | PAN-OS KEV target contents reviewed | PASS | Target product, dateAdded, shortDescription and requiredAction inspected; no asset compromise inference |
-| MOVEit supplemental records | PASS | 21 distinct records |
-| MOVEit source/category grid | PASS | Three document versions × E1–E7 |
+| MOVEit supplemental records | PASS | 84 distinct records |
+| MOVEit source/category grid | PASS | 12 scored document units × E1–E7 |
 | MOVEit numerical ranges | PASS | Independent 0–3 scales |
-| MOVEit provisional synthesis | PASS | All seven separate maxima and supporting source lists recalculated from the 21 rows |
+| MOVEit provisional synthesis | PASS | All seven separate maxima and supporting source lists recalculated from the 84 rows |
 | Local Markdown links | PASS | All relative file targets exist; external live-page availability is not guaranteed. |
 | Baseline file inventory covered | PASS | 10 baseline files matched to review inventory |
 
@@ -60,4 +60,4 @@ Scope: Entire tracked repository inventory; targeted external-source review, ind
 The initial Windows checkout had SHA-256 4780e2d7fbbbd58761f8ad3450246905260db071fa08af400b07b01e9f7ecc5e because Git converted line endings to CRLF. The committed blob and LF-normalized content both matched the documented snapshot hash. The delivered snapshot restores the exact committed bytes; a narrow .gitattributes rule disables future text conversion for KEV snapshot JSON. No catalog entry was edited.
 
 ## Limits
-Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; a full independent recoding of the 70 records remains outstanding. MOVEit is a three-document initial supplement with explicit pending links. Its remaining three pilot peers are uncoded. Full-text literature appraisal and the main study remain unfinished.
+Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; a full independent recoding of the 70 records remains outstanding. MOVEit has 84 first-pass records across 12 document units; bounded source screening is complete with access/version limitations and researcher verification outstanding. Its remaining three pilot peers are uncoded. Full-text literature appraisal and the main study remain unfinished.

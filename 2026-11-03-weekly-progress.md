@@ -7,7 +7,7 @@ Status: Pilot review and coding in progress
 - Performed targeted live-source checks of disputed PAN-OS interpretations and a structural audit of the 70 original records and seven summaries.
 - Recorded a post-cutoff recovery-source revision and preserved historical records.
 - Drafted scenario, E4/E6/E7 facet and source-version rules in v0.3.
-- Began MOVEit with three accessible official document versions and 21 supplemental document-category records.
+- Completed bounded MOVEit source screening and expanded coding to 84 records across 12 document units; documented inaccessible and version-mismatched material.
 - Prepared a five-source related-work seed matrix, with abstract-only and section-only review limits labeled.
 - Corrected current status documentation and drafted a delivery roadmap through December 18.
 
@@ -20,11 +20,11 @@ Status: Pilot review and coding in progress
 - [Data quality report](../analysis/data-quality-report.md)
 
 ## Results and limits
-The review identified interpretive and version-control issues, not validated cross-CVE findings. Original PAN-OS scores are retained. MOVEit retrieval remains incomplete and its scores provisional; the other three pilot cases are uncoded. The full literature review, protocol freeze and independent coding review remain outstanding. No production systems were accessed.
+The review identified interpretive and version-control issues, not validated cross-CVE findings. Original PAN-OS scores are retained. MOVEit first-pass screening/coding is complete within the recorded boundary, with access limitations and provisional scores; the other three pilot cases are uncoded. The full literature review, protocol freeze and independent coding review remain outstanding. No production systems were accessed.
 
 ## Time record
 Actual research hours have not been entered for this record.
 
 ## Next work
-Researcher review of disputed PAN-OS rows and proposed rules; complete MOVEit linked-source screening; retrieve/code Outlook, Print Spooler and Log4j; record actual new-work time; produce the full pilot revision memo.
+Researcher review of disputed PAN-OS rows and proposed rules; verify the MOVEit coding; begin Outlook, then Print Spooler and Log4j; record actual new-work time; produce the full pilot revision memo.
 
