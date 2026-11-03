@@ -1,0 +1,2 @@
+# Preserve research snapshot bytes; Windows line-ending conversion changes SHA-256.
+/data/kev-snapshot-*.json -text

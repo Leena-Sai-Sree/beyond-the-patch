@@ -12,8 +12,8 @@
 | School | School for Professional Studies |
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
-| Research status | Initial planning and conceptual analysis |
-| Repository visibility | Private | 
+| Research status | Five-case pilot in progress; PAN-OS first pass recorded; MOVEit supplement started |
+| Repository visibility | Public when inspected on 2026-11-03 |
 
 ## Project Overview
 
@@ -82,8 +82,8 @@ Exploited Vulnerabilities Catalog.
 The initial plan is to:
 
 - Conduct a five-CVE pilot to test the evaluation framework.
-- Consider a main sample of 30–50 CVEs, subject to pilot findings,
-  source availability, and feasibility within the appointment period.
+- Target five pilot CVEs plus up to 20 additional CVEs, subject to pilot
+  timing, source availability and feasibility within the appointment period.
 - Include multiple product categories using documented selection criteria.
 - Define the sampling period, source cutoff date, and inclusion and
   exclusion criteria before the main analysis.
@@ -103,8 +103,8 @@ For each source, the study will record its URL, publisher, publication
 and update dates where available, access date, and relevant document
 sections.
 
-Source inclusion and linked-document boundaries will be defined in the
-research protocol.
+Working source inclusion and linked-document boundaries are documented in
+the research protocol and refined during the pilot.
 
 ## Proposed Evidence Taxonomy
 
@@ -121,21 +121,29 @@ Definitions and category boundaries will be tested during the pilot.
 | E6 | Verification evidence | Patch confirmation, vulnerability validation, and remediation checks |
 | E7 | Closure evidence | Retained records, residual-risk decisions, and closure criteria |
 
-## Proposed Actionability Scale
+## Coding framework
 
-| Score | Label | Working definition |
+The working design uses two independent 0–3 ordinal scales, not the
+original combined actionability scale.
+
+| Score | Operational actionability | Evidence specificity |
 |---|---|---|
-| 0 | Not identified | Relevant guidance was not identified within the defined source set |
-| 1 | Mentioned | The action or concept is referenced without sufficient operational detail |
-| 2 | Actionable | Operational instructions are provided without explicit supporting evidence or verification requirements |
-| 3 | Actionable and evidence-oriented | Operational instructions identify artifacts or observations supporting verification |
+| 0 | No relevant action identified | No relevant evidence requirement identified |
+| 1 | General recommendation | General evidence/verification reference |
+| 2 | Specific operational steps | Named artifacts or observations |
+| 3 | Detailed reproducible procedure | Evidence linked to verification or a decision |
 
-A score of 0 will describe the reviewed source set, rather than establish
-that relevant guidance does not exist elsewhere.
+Applicability is recorded separately as A1 applicable, A2 not applicable,
+A3 conditional, or A4 undetermined. Inapplicable and unresolved cases
+are not automatically zero. Scores describe the reviewed source set;
+they do not prove the absence of compromise. Do not average these scales.
 
-The coding unit, treatment of conditional or inapplicable guidance,
-source aggregation rules, and scoring examples will be specified before
-the main analysis.
+The [v0.2 protocol](methodology/research-protocol-v0.2.md) defines document-level
+coding and source-attributed CVE summaries. The
+[v0.3 pilot-rule draft](methodology/pilot-rules-v0.3-draft.md) clarifies
+scenario assumptions, source versions and the distinction between technical
+response disposition, residual-risk treatment and administrative closure.
+It remains a pilot revision pending empirical testing, not a frozen protocol.
 
 ## Planned Quality Checks
 
@@ -164,29 +172,41 @@ research, supervisor review, and suitable venue requirements.
 
 ## Current Progress
 
-Initial work has included:
+Status updated 2026-11-03:
 
-- A supervisor meeting and approval of the research direction
-- Initial conceptual analysis of patch verification, possible prior
-  exploitation, and closure evidence
-- Preparation of a draft research blueprint
-- Creation of this private repository
+- Protocol/codebook v0.2, selection criteria and a dated KEV snapshot are recorded.
+- Seven candidates were screened and five pilot CVEs selected on October 28.
+- PAN-OS CVE-2024-3400 has 70 original first-pass coding records and seven
+  summaries, with human verification pending.
+- A [targeted November 3 source review](research-notes/2026-11-03-pan-os-review.md)
+  identifies interpretation and source-version issues; original scores are preserved.
+- [MOVEit CVE-2023-34362 supplemental coding](data/moveit-pilot-supplement-2026-11-03.md)
+  contains 21 draft records for three official document versions. Direct-link
+  retrieval remains incomplete.
+- Outlook CVE-2023-23397, Print Spooler CVE-2021-34527 and Log4j
+  CVE-2021-44228 retain starting source records and remain uncoded.
+- An [initial related-work matrix](research-notes/related-work-initial-review.md)
+  has been prepared; full-text literature appraisal remains outstanding.
 
-The draft blueprint proposes research questions, seven evidence
-categories, an actionability scale, and a pilot-to-main-study workflow.
-
-These activities establish the starting research plan. Empirical
-findings, a completed pilot, and a validated evaluation framework are
-not claimed at this stage.
+The researcher reports broad supervisor support for pursuing the work.
+Specific v0.3 rules and draft scores are not represented as individually
+reviewed or independently validated. A complete pilot and main-study
+findings are not yet claimed.
 
 ## Next Steps
 
-1. Refine the scope and operational definitions.
-2. Document sampling and source-selection criteria.
-3. Prepare the source register and coding worksheet.
-4. Select five pilot CVEs using the documented criteria.
-5. Conduct the pilot and revise the protocol.
-6. Review feasibility and confirm the main-study scope.
+1. Complete the PAN-OS verification queue and apply consistent scenario,
+   E4/E6/E7 and source-version rules.
+2. Finish MOVEit eligible linked-source retrieval and revise its provisional summary.
+3. Retrieve and code the remaining three selected cases, recording actual work time.
+4. Write the full pilot revision memo and freeze the method after resolving open items.
+5. Size/select the main study using observed effort; complete related-work appraisal.
+6. Produce comparative findings, a traceable closure checklist and the agreed
+   report/presentation deliverables.
+
+See the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md),
+[November 3 progress record](weekly-progress/2026-11-03-weekly-progress.md)
+and [data quality report](analysis/data-quality-report.md).
 
 ## Planned Repository Structure
 
