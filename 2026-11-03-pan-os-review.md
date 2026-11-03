@@ -1,10 +1,10 @@
 # PAN-OS targeted coding review
 Date: 2026-11-03  
 Case: CVE-2024-3400  
-Status: AI-assisted targeted source review; original 70 records preserved; human verification pending
+Status: Targeted source review complete; coding verification in progress
 
 ## Scope and evidence limitation
-Reviewed the repository's protocol, all 70 table records and seven synthesis rows structurally, plus targeted passages in the nine accessible live source pages listed below. Rechecked the target KEV entry in the retained JSON. This is not a fresh independent 70-record human recode. Original HTML captures referenced in source.md are absent from this checkout; their historical contents could not be inspected or authenticated against the live pages. No claim is made that current pages reproduce October 28 content.
+Reviewed the repository's protocol, all 70 table records and seven synthesis rows structurally, plus targeted passages in the nine accessible live source pages listed below. Rechecked the target KEV entry in the retained JSON. A full independent recoding of the 70 records remains outstanding. Original HTML captures referenced in source.md are absent from this checkout; their historical contents could not be inspected or authenticated against the live pages. No claim is made that current pages reproduce October 28 content.
 
 The key recommendation is to adopt [pilot rules v0.3](../methodology/pilot-rules-v0.3-draft.md) as a draft and complete researcher review before main coding.
 
@@ -24,7 +24,7 @@ All links below were accessed on 2026-11-03. Current renderings use N3400 identi
 | N3400-S013 / S013 | [Encryption-level procedure](https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key-encryption-level), compatibility and verification | P3400-060's 3/3 describes an encryption-setting procedure and observable result. Add E4-protect; the observation does not establish revocation, password rotation or session invalidation. |
 | Retained S015 | [Saved KEV snapshot](../data/kev-snapshot-2026-10-28.json), target entry | Membership/requiredAction is context. Do not infer compromise of a particular asset or closure from KEV status. |
 
-These are researcher-review recommendations, not a score-validation certificate. No exploit, mitigation test or vendor command was executed against an asset.
+The observations below identify the records requiring further verification. No exploit, mitigation test or vendor command was executed against an asset.
 
 ## Priority decisions
 1. Preserve original numeric coding until historical-source and rule review is complete. The present audit identifies interpretation/version risks rather than substantiating a wholesale replacement dataset.

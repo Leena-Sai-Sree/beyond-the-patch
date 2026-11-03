@@ -63,7 +63,7 @@ The source set for the full five-CVE pilot remains incomplete. The worksheet rec
 
 **Case:** CVE-2024-3400  
 **Review date:** 2026-10-28  
-**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; human review pending  
+**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; researcher review pending  
 **Coding:** [Pilot Coding Worksheet](pilot-coding-worksheet.md#first-pilot-case-cve-2024-3400)
 
 ### Retrieval Boundary

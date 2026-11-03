@@ -77,7 +77,7 @@ Direct CISA advisory access returned HTTP 403 in the browsing interface. This is
 
 The Apache legacy security URL redirected to the consolidated security page. Current page content is the reviewed version; no historical disclosure-date reconstruction is claimed.
 
-For remaining retrieval/coding, retain accessible document versions where permitted, screen eligible links consistently, and record boundaries. PAN-OS first-pass and supplemental MOVEit scoring are recorded, but completed-pilot findings and independent validation are not claimed. Broad supervisor support was reported by the researcher on November 3; specific roster or score review is not inferred.
+For remaining retrieval/coding, retain accessible document versions where permitted, screen eligible links consistently, and record boundaries. PAN-OS first-pass and supplemental MOVEit scoring are recorded, but completed-pilot findings and independent validation are not claimed.
 
 ## Decision History
 

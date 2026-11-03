@@ -1,7 +1,7 @@
 # Beyond the Patch — delivery roadmap
 Prepared: 2026-11-03  
 Planning horizon: appointment ends 2026-12-18  
-Status: Proposed schedule; broad supervisor support reported; weekly capacity and required submission format not yet supplied
+Status: Working schedule; weekly capacity and final submission requirements to be confirmed
 
 ## Immediate outcome
 A reviewed five-case pilot and a stable, reproducible method are the next milestone. The November 3 package supplies targeted PAN-OS review, draft operational rules, initial MOVEit coding, a related-work seed review and synchronized progress records. It does not complete the five-case pilot or validate an empirical result.
@@ -11,7 +11,7 @@ A reviewed five-case pilot and a stable, reproducible method are the next milest
 |---|---|---|
 | Nov 3–6 | Researcher reviews PAN-OS disputed records and v0.3 choices; retrieve pending MOVEit links | Review decisions linked to record IDs; accepted scenario/E7/version policy; MOVEit search log |
 | Nov 7–13 | Complete MOVEit, Outlook, Print Spooler and Log4j pilot retrieval/coding; continue related-work full-text review | Five bounded source sets, traceable records/summaries, actual timing for new work |
-| Nov 14–16 | Pilot revision memo, delayed self-recode or human subset review; main-sample feasibility decision | Frozen protocol version, change log, recoding list and approved scope decision |
+| Nov 14–16 | Pilot revision memo, delayed self-recode or independent subset review; main-sample feasibility decision | Frozen protocol version, change log, recoding list and documented scope decision |
 | Nov 17–30 | Main study at feasible scale; draft methods and results in parallel | Completed main-case records, explicit denominators, qualitative memos and review log |
 | Dec 1–7 | Analysis, draft evidence-oriented checklist and full paper/report | Results tied to source records; checklist separates source-derived items from researcher recommendations |
 | Dec 8–14 | Supervisor review and corrections; presentation/poster if required | Addressed feedback log; checked references and consistent counts |
@@ -37,8 +37,8 @@ The researcher/supervisor should resolve:
 3. Adopt a common later observation window for the main study while preserving October 28 history?
 4. What weekly capacity, final format and review date are required?
 
-Review can proceed on completed work while these answers are collected. This package does not claim that a supervisor approved the revision.
+Review can proceed on completed work while these answers are collected. Record any feedback alongside the relevant method decisions.
 
 ## Known remaining work
-Four-case pilot is not finished. MOVEit has an initial three-document supplement, not completed direct-link retrieval. Full-text literature appraisal, independent human coding and main-study analysis remain outstanding. Historical PAN-OS capture files must be located if October 28 semantic verification is required.
+The five-case pilot is not finished. MOVEit has an initial three-document supplement, not completed direct-link retrieval. Full-text literature appraisal, independent coding review and main-study analysis remain outstanding. Historical PAN-OS capture files must be located if October 28 semantic verification is required.
 

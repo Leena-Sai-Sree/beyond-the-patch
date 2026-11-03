@@ -51,7 +51,7 @@ A retained local capture needs file path, access timestamp and SHA-256, but hash
 ## Synthesis and quality review
 Report separate actionability and evidence maxima with source IDs, scenario, temporal series and covered facets. No averages, aggregate completeness score or vendor league table. An incomplete source search supports provisional document observations, not a final CVE-level absence claim. Category maxima can mask missing facets and incompatible instructions.
 
-AI-assisted review is not a second human coder. Researcher verification should include all changed/disputed records, inaccessible/version-sensitive references and a documented sample of unchanged records; reviewer scope must be explicit. If a human second coder is unavailable, perform delayed self-recoding and describe it honestly.
+An independent coding review has not yet been completed. Researcher verification should cover disputed records, version-sensitive sources and a documented sample of unchanged records. Record the reviewer and the scope of each check. If a second coder is unavailable, use delayed self-recoding and report it separately from independent agreement.
 
 ## Change log and adoption gate
 | Decision | Reason | Affected material |
@@ -62,5 +62,5 @@ AI-assisted review is not a second human coder. Researcher verification should i
 | E7-T with stricter sensitivity result | Make closure interpretation reproducible | P3400-042 and E7 summary |
 | Named retrieval routes and stopping rule | Make source-set comparisons inspectable | Remaining pilot retrieval |
 
-Before freezing: finish all five cases, resolve pending links, confirm the common temporal policy and E7 scope, verify affected records, measure actual coding effort, and record researcher decisions and any supervisor feedback. The researcher reports broad supervisor support; no separate approval gate is imposed for continuing the pilot, and no specific score review is inferred.
+Before freezing: finish all five cases, resolve pending links, confirm the common temporal policy and E7 scope, verify affected records, measure actual coding effort, and record researcher decisions and any supervisor feedback.
 

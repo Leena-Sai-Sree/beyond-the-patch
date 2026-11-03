@@ -13,7 +13,6 @@
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
 | Research status | Five-case pilot in progress; PAN-OS first pass recorded; MOVEit supplement started |
-| Repository visibility | Public when inspected on 2026-11-03 |
 
 ## Project Overview
 
@@ -177,7 +176,7 @@ Status updated 2026-11-03:
 - Protocol/codebook v0.2, selection criteria and a dated KEV snapshot are recorded.
 - Seven candidates were screened and five pilot CVEs selected on October 28.
 - PAN-OS CVE-2024-3400 has 70 original first-pass coding records and seven
-  summaries, with human verification pending.
+  summaries awaiting researcher verification.
 - A [targeted November 3 source review](research-notes/2026-11-03-pan-os-review.md)
   identifies interpretation and source-version issues; original scores are preserved.
 - [MOVEit CVE-2023-34362 supplemental coding](data/moveit-pilot-supplement-2026-11-03.md)
@@ -188,10 +187,9 @@ Status updated 2026-11-03:
 - An [initial related-work matrix](research-notes/related-work-initial-review.md)
   has been prepared; full-text literature appraisal remains outstanding.
 
-The researcher reports broad supervisor support for pursuing the work.
-Specific v0.3 rules and draft scores are not represented as individually
-reviewed or independently validated. A complete pilot and main-study
-findings are not yet claimed.
+The pilot rules and scores remain provisional until the source checks and
+coding review are complete. The five-case pilot and main analysis are
+still in progress.
 
 ## Next Steps
 

@@ -1,7 +1,7 @@
 # Repository and data quality review
 Date: 2026-11-03  
 Baseline commit: a1f5996e6af52ce7870dac5581021b68743ba328  
-Scope: Entire tracked repository inventory; targeted external-source review, not independent human validation.
+Scope: Entire tracked repository inventory; targeted external-source review, independent coding review outstanding.
 
 ## Every baseline file accounted for
 | File | Review and disposition |
@@ -20,7 +20,7 @@ Scope: Entire tracked repository inventory; targeted external-source review, not
 ## Reproducible data checks
 | Check | Result | Evidence |
 |---|---|---|
-| Original PAN-OS rows preserved | PASS | All original 70 data rows compared field-for-field to the baseline. |
+| Original PAN-OS analytical fields preserved | PASS | All analytical fields in the 70 records match the baseline; review-status metadata was standardized. |
 | PAN-OS record count | PASS | 70 |
 | PAN-OS unique IDs | PASS | 70 distinct record IDs |
 | PAN-OS document/category grid | PASS | 10 scored source units × E1–E7 |
@@ -60,4 +60,4 @@ Scope: Entire tracked repository inventory; targeted external-source review, not
 The initial Windows checkout had SHA-256 4780e2d7fbbbd58761f8ad3450246905260db071fa08af400b07b01e9f7ecc5e because Git converted line endings to CRLF. The committed blob and LF-normalized content both matched the documented snapshot hash. The delivered snapshot restores the exact committed bytes; a narrow .gitattributes rule disables future text conversion for KEV snapshot JSON. No catalog entry was edited.
 
 ## Limits
-Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; it did not independently human-recode all 70 records. MOVEit is a three-document initial supplement with explicit pending links. Its remaining three pilot peers are uncoded. Full-text literature appraisal and the main study remain unfinished.
+Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; a full independent recoding of the 70 records remains outstanding. MOVEit is a three-document initial supplement with explicit pending links. Its remaining three pilot peers are uncoded. Full-text literature appraisal and the main study remain unfinished.

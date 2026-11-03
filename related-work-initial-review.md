@@ -16,7 +16,7 @@ This search is a starting point with no exhaustive screening count. No claim of 
 | L04 | Imtiaz, Khanom & Williams (2021 preprint), [Open or Sneaky? Fast or Slow? Light or Heavy?: Investigating Security Releases of Open Source Packages](https://arxiv.org/abs/2112.06804) | Abstract and bibliographic record | Examines security-release timing and documentation across package ecosystems. Relevant to communication and timing; it does not directly evaluate closure evidence. Verify final publication status before final bibliography. |
 | L05 | Grispos, Glisson & Storer (2019), [How Good is Your Data? Investigating the Quality of Data Generated During Security Incident Response Investigations](https://arxiv.org/abs/1901.03723), HICSS-52 | Abstract and bibliographic record | A case study of incident-response data-quality challenges. Relevant to evidence provenance and documentation. A single-organization study cannot validate this project's seven-category scoring model. |
 
-All sources accessed 2026-11-03. Bibliographic year reflects the inspected record; it is not an invented final-publication year.
+All sources accessed 2026-11-03. Publication years follow the bibliographic records reviewed.
 
 ## Preliminary synthesis
 The reviewed material suggests three adjacent lines of work: managing and verifying patches; conducting and documenting incident recovery; and communicating vulnerability information or preserving useful incident data. Beyond the Patch can examine how selected official CVE-specific source sets connect these activities.
@@ -32,7 +32,7 @@ Search ACM Digital Library, IEEE Xplore, USENIX, Google Scholar and institutiona
 - (“vulnerability management” AND (“closure” OR “residual risk” OR evidence))
 - (“incident response” AND (“data quality” OR “documentation” OR “decision criteria”))
 
-Record database, exact query, date, screened titles/abstracts, exclusion reason and full-text decision. Follow references and citing papers from L03–L05. Separate empirical studies, standards/frameworks and practitioner guidance. For included full texts extract research question, sample, unit of analysis, method, results, limitations and specific overlap with this study. Keep the background-literature cutoff separate from CVE-guidance cutoffs. No fabricated screening totals.
+Record database, exact query, date, screened titles/abstracts, exclusion reason and full-text decision. Follow references and citing papers from L03–L05. Separate empirical studies, standards/frameworks and practitioner guidance. For included full texts extract research question, sample, unit of analysis, method, results, limitations and specific overlap with this study. Keep the background-literature cutoff separate from CVE-guidance cutoffs. Record screening totals as the review progresses.
 
 ## Paper outline supported by this review
 1. Problem: patch verification and possible prior exploitation create different evidence needs.
@@ -40,5 +40,5 @@ Record database, exact query, date, screened titles/abstracts, exclusion reason 
 3. Method: sample, scenarios, source boundaries, version policy, two scoring dimensions.
 4. Results: applicable-category distributions and qualitative memos with provenance.
 5. Discussion: observed guidance boundaries, practical implications and uncertainty.
-6. Limitations: purposive sample, source versions, single-coder/AI assistance and no asset-level validation.
+6. Limitations: purposive sample, source versions, coding and review procedures and no asset-level validation.
 

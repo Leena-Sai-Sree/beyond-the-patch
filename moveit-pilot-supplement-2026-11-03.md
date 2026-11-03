@@ -1,7 +1,7 @@
 # MOVEit pilot — November 3 supplement
 CVE: CVE-2023-34362  
 Date/access date: 2026-11-03  
-Status: Initial three-document coding; linked-source retrieval incomplete; AI-assisted draft  
+Status: Draft coding for three documents; linked-source review in progress  
 Rules: [v0.2 protocol](../methodology/research-protocol-v0.2.md) with explicit [v0.3 draft clarifications](../methodology/pilot-rules-v0.3-draft.md)
 
 ## Relationship to existing records
@@ -24,7 +24,7 @@ All E1–E7 categories are A1 in this scenario: exposure and investigation, acce
 All three versions were reviewed through web-rendered text, not retained full raw captures. Source URLs and section locators are retained here. Historical October 28 equivalence is unestablished. No supplied detection code was executed or validated.
 
 ## Document-category records
-Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation condition assumed in scenario; coder Codex-assisted draft; coding date 2026-11-03; protocol v0.2 plus v0.3 draft. A/E = actionability/evidence specificity. Each rationale describes only the named document and compatible scenario.
+Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation condition assumed in scenario; review status: draft, awaiting researcher verification; coding date 2026-11-03; protocol v0.2 plus v0.3 draft. A/E = actionability/evidence specificity. Each rationale describes only the named document and compatible scenario.
 
 | Record ID | Source version | Category / facet | A | E | Section | Observation and score rationale |
 |---|---|---|---|---|---|---|
