@@ -1,6 +1,6 @@
 # Changes aligned with the existing research
-Date: 2026-11-03  
-Reviewed baseline: a1f5996e6af52ce7870dac5581021b68743ba328  
+Date: 2026-11-03\
+Reviewed baseline: a1f5996e6af52ce7870dac5581021b68743ba328\
 Status: Historical work-package record; published in the November 3 uploads.
 
 ## November 9 correction
@@ -35,23 +35,13 @@ The KEV JSON is retained with exact committed bytes. A Windows checkout initiall
 | .gitattributes | Protects KEV snapshot byte identity from future text conversion |
 | deliverables/2026-11-03-change-summary.md | This record of modifications, rationale, scope and continuation |
 
-## Immediate next step: complete the MOVEit source set
-Continue from the pending-link table in the [MOVEit supplement](../data/moveit-pilot-supplement-2026-11-03.md), rather than selecting new CVEs or beginning the main sample.
+## Outcome and continuation
+The initial MOVEit increment was expanded to 84 records before the final November 3 upload. Bounded screening is documented with access limitations. Outlook subsequently gained 21 primary-document records on November 9; its linked-source collection remains incomplete. Print Spooler and Log4j retain starting sources.
 
-1. Screen the Canadian government route and the vendor's linked logs, users, service-account reset and in-scenario upgrade instructions. Decide and record the relevance of the remaining official direct links.
-2. For each eligible source, register a distinct version ID, dates, source relationship and retained evidence/access limitation.
-3. Add document × E1–E7 records under M34362-C, preserving the same two scales and scenario/conditional rules.
-4. Update the seven MOVEit summaries and memos only after resolving the pending source set. No final absence claim while eligible links remain pending.
-5. Record actual new-work time. Then repeat the documented process for Outlook, Print Spooler and Log4j.
-6. After all five, write the pilot revision memo and freeze a coherent main-study protocol and temporal policy.
+The current [weekly record](../weekly-progress/2026-11-09-weekly-progress.md) and [methodological rationale](../research-notes/2026-11-09-researcher-decisions.md) describe subsequent source review and accepted interpretations. Original PAN-OS and MOVEit numeric rows are preserved, with current MOVEit E7-T 2/3 recorded in the revision overlay.
 
-A targeted PAN-OS verification queue can proceed alongside MOVEit. Broad supervisor support was reported; no further approval is required here just to continue pilot work. Specific researcher checks remain a data-quality task, not a permission gate.
+## Provenance and limits
+This entry documents the November 3 work package and its subsequent correction. It is not a completed five-case pilot, independently coded dataset, systematic literature review or main study. AI-assisted first-pass work and automated structural review are distinct from later researcher review and independent coding agreement. Historical PAN-OS raw captures remain unavailable in the repository.
 
-## What this package does not claim
-It is not a complete five-CVE pilot, validated dataset, systematic literature review or finished main study. Three selected cases remain uncoded, and MOVEit still has pending linked sources. Nine live PAN-OS pages were checked at targeted passages; original historical raw captures were not available. AI-assisted review is not independent human coding.
-
-No GitHub files, repository visibility or external messages were changed by this local package.
-
-## Applying the changes
-Use the packaged repository files at their existing relative paths in your GitHub checkout. Review against the baseline commit above, retain the new directories and .gitattributes, and exclude the package's outer START-HERE.md from repository upload unless desired. If the remote has changed after this baseline, compare and merge the relevant edits rather than replacing newer work.
-
+## Publication history
+The initial package instructions were superseded by the corrected repository layout. Current files belong in the documented project directories. Git history retains the earlier uploads and corrections; the report does not claim those published files were never changed.
