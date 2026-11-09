@@ -1,7 +1,10 @@
 # Repository and data quality review
 Date: 2026-11-03  
 Baseline commit: a1f5996e6af52ce7870dac5581021b68743ba328  
-Scope: Entire tracked repository inventory; targeted external-source review, independent coding review outstanding.
+Scope: Historical November 3 work-package checks; targeted external-source review, independent coding review outstanding.
+
+## November 9 publication-layout correction
+The PASS results below describe the earlier work-package layout, not a verified state of the subsequent GitHub upload. Inspection of commit 3fb0fb1 found 30 unresolved relative file-link occurrences, including seven in README.md. Root-level uploads and older directory copies created conflicting current records. The November 9 consolidation corrects the layout; see the [current validation report](2026-11-09-validation-report.md).
 
 ## Every baseline file accounted for
 | File | Review and disposition |

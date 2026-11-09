@@ -1,0 +1,233 @@
+{
+  "score_revisions": [
+    {
+      "record_id": "M34362-007",
+      "source_id": "N34362-S001",
+      "category": "E7",
+      "original_actionability": "0",
+      "original_evidence_specificity": "0",
+      "current_actionability": "2",
+      "current_evidence_specificity": "3",
+      "decision": "Q19=A",
+      "decision_received": "2026-11-09",
+      "scope": "Technical disposition for stated cleanup checks only; no administrative closure"
+    },
+    {
+      "record_id": "O23397-009",
+      "source_id": "N23397-S002",
+      "category": "E2",
+      "original_actionability": "2",
+      "original_evidence_specificity": "3",
+      "current_actionability": "2",
+      "current_evidence_specificity": "3",
+      "decision": "Q20=A",
+      "decision_received": "2026-11-09",
+      "scope": "Investigation and evidence preservation"
+    },
+    {
+      "record_id": "O23397-012",
+      "source_id": "N23397-S002",
+      "category": "E5",
+      "original_actionability": "0",
+      "original_evidence_specificity": "0",
+      "current_actionability": "0",
+      "current_evidence_specificity": "0",
+      "decision": "Q20=A",
+      "decision_received": "2026-11-09",
+      "scope": "Preservation warning does not supply a recovery procedure"
+    }
+  ],
+  "current_moveit_e7": {
+    "actionability": 2,
+    "evidence_specificity": 3,
+    "source": "N34362-S001",
+    "facet": "T"
+  },
+  "date": "2026-11-09",
+  "baseline": "3fb0fb1174e3c4ef94769513f012ca905ad49200",
+  "checks": [
+    {
+      "name": "Outlook records",
+      "status": "PASS",
+      "detail": "21 unique-expected records"
+    },
+    {
+      "name": "Outlook source grid",
+      "status": "PASS",
+      "detail": "Three source versions, seven categories each"
+    },
+    {
+      "name": "Outlook fields and ranges",
+      "status": "PASS",
+      "detail": "Required fields, source references and ordinal ranges"
+    },
+    {
+      "name": "PAN-OS original rows and provenance",
+      "status": "PASS",
+      "detail": "All 70 record fields, scores and original Codex-assisted labels compared to 3fb0fb1"
+    },
+    {
+      "name": "MOVEit original rows preserved",
+      "status": "PASS",
+      "detail": "All 84 original record rows match baseline"
+    },
+    {
+      "name": "MOVEit record grid",
+      "status": "PASS",
+      "detail": "84 records and 12 source units"
+    },
+    {
+      "name": "Outlook summary maxima",
+      "status": "PASS",
+      "detail": "Seven separate maxima compared to CSV"
+    },
+    {
+      "name": "KEV byte identity",
+      "status": "PASS",
+      "detail": "2d9931c086e42d05425c2da924299c8d9b7ff836de373f981668b7ef5f6f0fd7"
+    },
+    {
+      "name": "KEV count and selected cases",
+      "status": "PASS",
+      "detail": "1760 unique entries; all five selected CVEs present"
+    },
+    {
+      "name": "Relative Markdown file links",
+      "status": "PASS",
+      "detail": "84 local link occurrences checked; 0 unresolved"
+    },
+    {
+      "name": "Consolidated locations",
+      "status": "PASS",
+      "detail": "Authoritative data files reside under data/"
+    },
+    {
+      "name": "Review overlay references",
+      "status": "PASS",
+      "detail": "154 historical records and eight highlighted Outlook records"
+    },
+    {
+      "name": "Follow-up decisions applied",
+      "status": "PASS",
+      "detail": "MOVEit and Outlook decisions resolved; seven historical-version limitations retained"
+    },
+    {
+      "name": "Current MOVEit E7 maxima",
+      "status": "PASS",
+      "detail": "Current E7-T 2/3; original November 3 maxima 0/0 preserved"
+    },
+    {
+      "name": "Reported review dates kept distinct",
+      "status": "PASS",
+      "detail": "Receipt date does not substitute for unknown source-inspection dates"
+    }
+  ],
+  "maxima": [
+    {
+      "category": "E1",
+      "pan": [
+        3,
+        3
+      ],
+      "moveit": [
+        2,
+        2
+      ],
+      "outlook": [
+        1,
+        2
+      ]
+    },
+    {
+      "category": "E2",
+      "pan": [
+        3,
+        3
+      ],
+      "moveit": [
+        3,
+        3
+      ],
+      "outlook": [
+        3,
+        3
+      ]
+    },
+    {
+      "category": "E3",
+      "pan": [
+        3,
+        3
+      ],
+      "moveit": [
+        2,
+        0
+      ],
+      "outlook": [
+        2,
+        0
+      ]
+    },
+    {
+      "category": "E4",
+      "pan": [
+        3,
+        3
+      ],
+      "moveit": [
+        3,
+        3
+      ],
+      "outlook": [
+        2,
+        0
+      ]
+    },
+    {
+      "category": "E5",
+      "pan": [
+        2,
+        3
+      ],
+      "moveit": [
+        3,
+        3
+      ],
+      "outlook": [
+        2,
+        0
+      ]
+    },
+    {
+      "category": "E6",
+      "pan": [
+        3,
+        3
+      ],
+      "moveit": [
+        2,
+        2
+      ],
+      "outlook": [
+        1,
+        0
+      ]
+    },
+    {
+      "category": "E7",
+      "pan": [
+        2,
+        3
+      ],
+      "moveit": [
+        0,
+        0
+      ],
+      "outlook": [
+        0,
+        0
+      ]
+    }
+  ],
+  "broken_links": []
+}

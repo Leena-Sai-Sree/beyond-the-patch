@@ -1,9 +1,9 @@
 # Pilot Candidate Selection Log
 
 **Project:** Beyond the Patch  
-**Updated:** 2026-11-03; October 28 selection retained
+**Updated:** 2026-11-09; October 28 selection retained
 
-**Status (updated 2026-11-03):** Seven candidates screened; five selected; PAN-OS and MOVEit first-pass coding recorded; remaining three cases not yet coded
+**Status (updated 2026-11-09):** Seven candidates screened; five selected; PAN-OS 70, MOVEit 84 and Outlook 21 first-pass category records; Print Spooler and Log4j not yet coded
 
 ## Method and Sampling Frame
 
@@ -85,3 +85,6 @@ For remaining retrieval/coding, retain accessible document versions where permit
 |---|---|---|
 | 2026-10-28 | Screen seven candidates and select five for pilot retrieval | KEV membership, accessible official context, and deployment/mechanism diversity |
 
+
+## November 9 progress
+The [Outlook increment](outlook-pilot-2026-11-09.md) starts the third selected case. Its three primary documents are coded; linked-source screening continues. The selected roster and historical selection reasons are unchanged.

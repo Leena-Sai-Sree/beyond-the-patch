@@ -1,7 +1,10 @@
 # Changes aligned with the existing research
 Date: 2026-11-03  
 Reviewed baseline: a1f5996e6af52ce7870dac5581021b68743ba328  
-Status: Local work package; not published to GitHub
+Status: Historical work-package record; published in the November 3 uploads.
+
+## November 9 correction
+This document describes the initial November 3 package, including its then-pending MOVEit links and 21-record starting supplement. Later November 3 commits expanded MOVEit to 84 records and completed bounded screening. The historical instructions below are retained as context, not current installation steps or current project status. The [November 9 update](../weekly-progress/2026-11-09-weekly-progress.md) records consolidation into the intended directories.
 
 ## What stayed aligned
 The research question, seven evidence categories, independent actionability/evidence scales, A1–A4 applicability, purposive sample, official-source restrictions and pilot-to-main-study sequence are retained. The selected roster remains PAN-OS, MOVEit, Outlook, Print Spooler and Log4j. Original PAN-OS numeric records and the October 13/October 12–18 historical notes remain unchanged.

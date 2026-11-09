@@ -63,7 +63,7 @@ The source set for the full five-CVE pilot remains incomplete. The worksheet rec
 
 **Case:** CVE-2024-3400  
 **Review date:** 2026-10-28  
-**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; researcher review pending  
+**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; researcher review pending
 **Coding:** [Pilot Coding Worksheet](pilot-coding-worksheet.md#first-pilot-case-cve-2024-3400)
 
 ### Retrieval Boundary
@@ -143,3 +143,7 @@ The October 28 source entries, dates and capture claims above remain historical 
 - The [data quality report](../analysis/data-quality-report.md) distinguishes snapshot byte identity from line-ending conversion in a Windows checkout.
 
 Temporal policy and scenario/facet clarifications are in the [v0.3 pilot draft](../methodology/pilot-rules-v0.3-draft.md). The full five-case source set is not complete.
+
+## November 9 Outlook observation series
+
+[Outlook source and coding increment](outlook-pilot-2026-11-09.md) registers N23397-S001 through N23397-S003, with 21 first-pass records and an explicit pending-link log. November 9 observations do not replace October 28 S003. See the [machine-readable source register](outlook-sources-2026-11-09.json) and [combined review checklist](../research-notes/2026-11-09-review-checklist.md). The pilot source collection remains incomplete.

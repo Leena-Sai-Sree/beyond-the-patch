@@ -1,7 +1,8 @@
 # MOVEit pilot — November 3 supplement
 CVE: CVE-2023-34362  
 Date/access date: 2026-11-03  
-Status: Bounded source screening and first-pass coding complete; access limitations recorded; researcher verification pending  
+Historical status (November 3): Bounded screening and first-pass coding complete; researcher verification was pending.
+Current status (November 9): Researcher reports source review of all 84 records; accepted E7-T revision appears below and in the score-revisions file. Access/version limitations remain.  
 Rules: [v0.2 protocol](../methodology/research-protocol-v0.2.md) with explicit [v0.3 draft clarifications](../methodology/pilot-rules-v0.3-draft.md)
 
 ## Relationship to existing records
@@ -31,6 +32,9 @@ All E1–E7 categories are A1 in this scenario: exposure and investigation, acce
 | N34362-S012 | [Retained CISA KEV entry](kev-snapshot-2026-10-28.json), government catalog | Catalog 2026.10.27; target entry added 2023-06-02 | Existing snapshot, target entry only; requiredAction and notes. This is not a newly retrieved catalog version. |
 
 The source set contains 12 scored document units, including two versions of AA23-158A and one retained KEV entry. The eleven live documents were reviewed through rendered web/PDF text on November 3; full raw captures were not retained. Historical October 28 equivalence is unestablished. No supplied detection code or remediation procedure was executed. Version pairs are not independent corroboration.
+
+## November 9 accepted score revision
+Follow-up 19=A accepts M34362-007 at current E7-T 2/3, limited to the explicit cleanup verification outcome and subsequent response-stage transition. Thus current E7 maxima are 2/3, both supported by N34362-S001. Administrative closure is not established. The original table and historical synthesis below retain November 3 scores; apply the [score revision](score-revisions-2026-11-09.csv) for current analysis. This is a revision to one existing record, not an additional observation.
 
 ## Document-category records
 Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation condition assumed in scenario; review status: draft, awaiting researcher verification; coding date 2026-11-03; protocol v0.2 plus v0.3 draft. A/E = actionability/evidence specificity. Each rationale describes only the named document and compatible scenario.
@@ -124,7 +128,7 @@ Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation conditio
 
 E4 evidence 2 in the vendor source refers to account/session-related inspection and named account targets, not an auditable certificate that all credentials/sessions were replaced. Recheck this boundary during researcher review. Credential rotation and account deletion are recorded separately; unauthorized-account removal primarily supports E5.
 
-## CVE-level synthesis — accessible reviewed source set
+## Historical November 3 synthesis — accessible reviewed source set
 | Category | Highest A / source | Highest E / source | Interpretation limit |
 |---|---|---|---|
 | E1 | 2 / N34362-S001, N34362-S002, N34362-S003, N34362-S004, N34362-S006, N34362-S009 | 2 / N34362-S001, N34362-S002, N34362-S003, N34362-S004, N34362-S006, N34362-S007, N34362-S009 | Exposure criteria vary in detail and version wording. |
@@ -184,3 +188,6 @@ Excluding an edition-mismatched manual does not establish that its advice is unu
 
 Actual research hours have not been entered. Independent coding agreement has not been measured.
 
+
+## November 9 researcher decisions
+See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). The researcher reports source review of the historical rows. Original scores and first-pass provenance are retained as historical records; the separate overlay distinguishes accepted decisions, unresolved interpretations and missing historical versions. No independent agreement statistic is claimed.

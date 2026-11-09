@@ -64,3 +64,6 @@ An independent coding review has not yet been completed. Researcher verification
 
 Before freezing: finish all five cases, resolve pending links, confirm the common temporal policy and E7 scope, verify affected records, measure actual coding effort, and record researcher decisions and any supervisor feedback.
 
+
+## November 9 decision addendum
+The [18-item researcher register](../research-notes/2026-11-09-researcher-decisions.md) retains the document-category coding unit, two ordinal scales, four applicability states and explicit C-state analytical scenarios. PAN-OS technical-disposition credit and narrow master-key/verification facets are accepted in the stated scope. Follow-up 19=A accepts MOVEit E7-T 2/3 for the specific cleanup verification outcome and transition sequence. The earlier exclusion of an ordered list alone remains: credit requires an explicit post-response assessment outcome, not merely service reopening. The October 28 recovery capture is unavailable and cannot be authenticated by current content. Follow-up 20=A accepts the Outlook E2/E5 preservation distinction. These decisions do not freeze the main-study protocol or replace the outstanding pilot cases.

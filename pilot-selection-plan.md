@@ -24,3 +24,6 @@ Select five cases spanning at least three product categories (e.g., network appl
 5. Record problems and revise rules before selecting up to 20 additional CVEs.
 
 **Current status (2026-11-03):** The [candidate log](../data/pilot-candidate-selection-log.md) records five selected cases. PAN-OS has an original first-pass worksheet; MOVEit has a dated supplement; the remaining three cases are uncoded. Selection is complete, but the five-case pilot is not.
+
+## November 9 status
+Outlook now has a [21-record increment](../data/outlook-pilot-2026-11-09.md). Print Spooler and Log4j remain uncoded; pilot completion is not claimed. Earlier dated statements above describe their own observation dates.

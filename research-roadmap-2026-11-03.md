@@ -3,6 +3,9 @@ Prepared: 2026-11-03
 Planning horizon: appointment ends 2026-12-18  
 Status: Working schedule; weekly capacity and final submission requirements to be confirmed
 
+## November 9 status update
+The dates below remain planning targets. [Current progress](../weekly-progress/2026-11-09-weekly-progress.md) records 21 new Outlook rows and a combined review checklist; it does not establish completion of earlier November 3–6 targets. Prioritize researcher decisions and completion of the remaining pilot retrieval before selecting additional cases. Reassess the main-study size if the pilot extends beyond November 13.
+
 ## Immediate outcome
 A reviewed five-case pilot and a stable, reproducible method are the next milestone. The November 3 package supplies targeted PAN-OS review, draft operational rules, bounded MOVEit first-pass analysis, a related-work seed review and synchronized progress records. It does not complete the five-case pilot or validate an empirical result.
 
