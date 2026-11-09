@@ -1,7 +1,7 @@
 # Beyond the Patch — Research Protocol v0.2
 
-**Date:** 2026-10-15  
-**Status:** Working protocol  
+**Date:** 2026-10-15\
+**Status:** Working protocol\
 **Researcher:** Leena Sai Sree Maridi, Saint Louis University
 
 ## Current revision note — 2026-11-03
@@ -50,7 +50,7 @@ If a page is updated after the cutoff, document the uncertainty about historical
 
 ### Source retrieval consistency
 
-To maintain a consistent retrieval procedure across sampled CVEs, source collection will begin with the CISA KEV entry, the affected vendor's official security advisory, and relevant official government or CSIRT guidance. The researcher will also review directly linked official technical or incident-response documents when they contain CVE-specific instructions or are explicitly referenced as applicable response guidance.
+To maintain a consistent retrieval procedure across sampled CVEs, source collection will begin with the CISA KEV entry, the affected vendor's official security advisory, and relevant official government or CSIRT guidance. Directly linked official technical or incident-response documents are also reviewed when they contain CVE-specific instructions or are explicitly referenced as applicable response guidance.
 
 The same source-discovery procedure will be applied to every sampled CVE. Retrieval will be considered complete for a CVE when the defined source categories and eligible direct links have been screened, with the search date, sources included, and relevant access limitations documented.
 
@@ -109,7 +109,7 @@ Use only public documentation; do not exploit vulnerabilities or inspect product
 
 ## 11. Open protocol items
 
-Freeze the KEV snapshot date and document cutoff, final product-category strata, treatment of generic linked guidance, precise conditional scoring examples, aggregation summaries, and full sampling roster **before main coding**. Supervisor review is desirable, but empirical completion is not claimed.
+Freeze the KEV snapshot date and document cutoff, final product-category strata, treatment of generic linked guidance, precise conditional scoring examples, aggregation summaries, and full sampling roster **before main coding**. The pilot findings will inform the final protocol; the current version is a working method.
 
 ## 12. Deliverables and sequencing
 

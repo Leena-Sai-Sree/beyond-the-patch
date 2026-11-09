@@ -1,6 +1,6 @@
 # Beyond the Patch — Coding Guide v0.2
-**Date:** 2026-10-15 
-**Status:** Working draft;
+**Date:** 2026-10-15
+**Status:** Working draft
 
 ## Current revision note — 2026-11-03
 
@@ -30,7 +30,7 @@ This v0.2 document is retained as the basis of the October 28 records. New draft
 | 2 | Named action steps or technique | Names a log, artifact, result, or observation |
 | 3 | Reproducible procedure (steps, conditions, relevant parameters) | Names evidence and connects it to a verification or disposition decision |
 
-### Hypothetical examples — NOT study findings
+### Illustrative scoring examples
 - 'Apply the update': E6 actionability 1, evidence specificity 0, assuming no other detail in the document.
 - 'Run the vendor's version-check command and retain its output to confirm the fixed build': E6 actionability 3 if the command is actually supplied; evidence specificity 3 if output and its decision meaning are specified.
 - 'If exploitation is suspected, revoke all affected tokens': E4 may be A3, with trigger 'suspected exploitation'; record the condition separately.

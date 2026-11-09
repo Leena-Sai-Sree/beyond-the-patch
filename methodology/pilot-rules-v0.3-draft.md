@@ -1,6 +1,6 @@
 # Pilot rules v0.3 — draft revision
-Date: 2026-11-03  
-Status: Pilot working revision; researcher verification pending; not a frozen main-study protocol  
+Date: 2026-11-03\
+Status: Pilot working revision; current interpretations documented November 9; not a frozen main-study protocol\
 Supersedes for new draft coding: the operational details below, not historical v0.2 records.
 
 ## Purpose and retained design
@@ -35,7 +35,7 @@ Encryption verification can score highly within E4-protect without demonstrating
 
 For E7, credit a technical-disposition passage only when it explicitly connects post-response evidence/assessment to a conclusion about response status or a criterion for ending or transitioning the response. An investigative next step or an ordered list ending with service reopening is not sufficient on its own. Merely saying investigate, patch, restore, or monitor is insufficient. Tag any credit T, U, or A. Do not require all facets for any credit; do not imply that T coverage satisfies U/A.
 
-PAN-OS S010's post-remediation FAQ can provisionally retain 2/3 under E7-T. The stricter alternative is 0/0 if the study later restricts E7 to explicit case-closure governance. Preserve that sensitivity result; decide before main coding. Do not choose the definition because it produces more gaps.
+The adopted E7 scope includes technical response disposition. PAN-OS S010's post-remediation FAQ retains 2/3 under E7-T. An administrative-only sensitivity analysis gives 0/0 for this passage; that alternative must not be mixed into the primary scores. The narrower scope is a construct sensitivity, not a reason to select whichever definition produces more gaps.
 
 ## Source boundaries and versions
 Keep the October 28 KEV snapshot as the pilot selection frame. Its membership date is distinct from the guidance observation date.
@@ -51,7 +51,7 @@ A retained local capture needs file path, access timestamp and SHA-256, but hash
 ## Synthesis and quality review
 Report separate actionability and evidence maxima with source IDs, scenario, temporal series and covered facets. No averages, aggregate completeness score or vendor league table. An incomplete source search supports provisional document observations, not a final CVE-level absence claim. Category maxima can mask missing facets and incompatible instructions.
 
-An independent coding review has not yet been completed. Researcher verification should cover disputed records, version-sensitive sources and a documented sample of unchanged records. Record the reviewer and the scope of each check. If a second coder is unavailable, use delayed self-recoding and report it separately from independent agreement.
+Independent second-coder results are not available. Source review covers the existing PAN-OS and MOVEit records; the review overlay distinguishes scope and source-version exceptions. Further coding retains the reviewer and scope of each check. If a second coder is unavailable, use delayed self-recoding and report it separately from independent agreement.
 
 ## Change log and adoption gate
 | Decision | Reason | Affected material |
@@ -66,4 +66,4 @@ Before freezing: finish all five cases, resolve pending links, confirm the commo
 
 
 ## November 9 decision addendum
-The [18-item researcher register](../research-notes/2026-11-09-researcher-decisions.md) retains the document-category coding unit, two ordinal scales, four applicability states and explicit C-state analytical scenarios. PAN-OS technical-disposition credit and narrow master-key/verification facets are accepted in the stated scope. Follow-up 19=A accepts MOVEit E7-T 2/3 for the specific cleanup verification outcome and transition sequence. The earlier exclusion of an ordered list alone remains: credit requires an explicit post-response assessment outcome, not merely service reopening. The October 28 recovery capture is unavailable and cannot be authenticated by current content. Follow-up 20=A accepts the Outlook E2/E5 preservation distinction. These decisions do not freeze the main-study protocol or replace the outstanding pilot cases.
+The [methodological decision record](../research-notes/2026-11-09-researcher-decisions.md) retains the document-category coding unit, two ordinal scales, four applicability states and explicit C-state analytical scenarios. PAN-OS technical-disposition credit and narrow master-key/verification facets are accepted in the stated scope. MOVEit E7-T is 2/3 for the specific cleanup verification outcome and transition sequence. The earlier exclusion of an ordered list alone remains: credit requires an explicit post-response assessment outcome, not merely service reopening. The October 28 recovery capture is unavailable and cannot be authenticated by current content. Outlook E2 and E5 remain separate because evidence-preservation advice is not a recovery procedure. These decisions do not freeze the main-study protocol or replace the outstanding pilot cases.
