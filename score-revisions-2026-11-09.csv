@@ -1,4 +1,0 @@
-record_id,source_id,category,original_actionability,original_evidence_specificity,current_actionability,current_evidence_specificity,decision,decision_received,scope
-M34362-007,N34362-S001,E7,0,0,2,3,Q19=A,2026-11-09,Technical disposition for stated cleanup checks only; no administrative closure
-O23397-009,N23397-S002,E2,2,3,2,3,Q20=A,2026-11-09,Investigation and evidence preservation
-O23397-012,N23397-S002,E5,0,0,0,0,Q20=A,2026-11-09,Preservation warning does not supply a recovery procedure
