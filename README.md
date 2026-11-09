@@ -1,236 +1,94 @@
-# Beyond the Patch 
+# Beyond the Patch
 
-## Evaluating Evidence Requirements for Closing Known-Exploited Vulnerabilities
+## Evaluating evidence requirements for closing known-exploited vulnerabilities
 
-**Working research title**
- 
-| Project detail | Information |
+Working research title. Updated November 9, 2026.
+
+| Project | Details |
 |---|---|
 | Researcher | Leena Sai Sree Maridi |
-| Role | Graduate Researcher |
-| Institution | Saint Louis University |
-| School | School for Professional Studies |
+| Institution | Saint Louis University, School for Professional Studies |
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
-| Appointment period | October 5–December 18, 2026 |
-| Research status | Five-case pilot in progress; PAN-OS, MOVEit and Outlook first-pass records available |
+| Appointment | October 5–December 18, 2026 |
+| Stage | Five-case pilot in progress |
 
-## Project Overview
+## Research question
+Installing a patch addresses a vulnerability, but it does not explain what happened before the patch was installed. If an attacker had already gained access, investigation and recovery may require different evidence from a software-version check.
 
-This project examines the relationship between vulnerability patching and
-compromise response for known-exploited vulnerabilities.
+This project examines how official vendor and government guidance addresses that problem. It asks what response actions are described, how clearly they can be carried out, and what evidence supports a decision to close the case. The research direction has supervisor approval; the final study design will follow the completed pilot.
 
-The research focuses on how official vendor and government guidance helps
-defenders address possible exploitation that occurred before remediation.
-It will evaluate whether that guidance provides actionable instructions
-and supporting evidence requirements for investigation, containment,
-credential and session response, recovery, verification, and closure.
+The study addresses four questions:
 
-The research direction has been approved by the supervisor. The formal
-title, research questions, sampling plan, and evaluation framework remain
-working proposals subject to refinement.
+1. Which response and closure activities are covered by the reviewed guidance?
+2. How much operational detail and verification evidence do the instructions provide?
+3. Where do sources leave questions unanswered, use ambiguous wording or give different advice for comparable circumstances?
+4. What practical closure criteria can be drawn from the documented findings?
 
-## Research Problem
+## Method
+The study uses structured document analysis. Cases are selected from a dated copy of the CISA Known Exploited Vulnerabilities Catalog. Each eligible document is assessed against a stated product and response scenario, with its version, relevant sections and coding rationale recorded.
 
-Installing a patch does not, by itself, establish whether a system was
-compromised before remediation or whether the effects of a compromise
-have been addressed.
+The five pilot cases are PAN-OS, MOVEit, Outlook, Print Spooler and Log4j. They cover different deployment types and response needs. The shortlist is purposive, so the findings cannot establish how common guidance problems are across the full KEV Catalog or rank vendors. Up to 20 additional cases may follow, depending on the time required to complete and review the pilot.
 
-This study will examine how published guidance supports decisions about
-closing a vulnerability case when prior exploitation is possible. It
-will distinguish verification that a vulnerability has been remediated
-from evidence supporting the resolution of potential compromise.
+Official vendor, government and recognized CSIRT documents form the scored source set. Linked procedures are assessed separately when they meet the inclusion rules. Access failures, later revisions and edition differences are recorded because they affect what can be concluded from the available text.
 
-Known exploitation in the wild does not establish that every affected
-asset has been compromised. Response and closure decisions must account
-for the circumstances and available evidence for the individual case.
+The [protocol](methodology/research-protocol-v0.2.md), [coding guide](methodology/coding-guide-v0.2.md) and [pilot rules](methodology/pilot-rules-v0.3-draft.md) describe the method. The pilot remains open while the remaining cases and source searches are completed.
 
-## Purpose
-
-To evaluate the coverage, actionability, and evidence requirements of
-official guidance for selected known-exploited vulnerabilities and derive
-practical recommendations for defensible closure decisions.
-
-The intended audiences include vulnerability-management teams, Security
-Operations Centers (SOC), incident responders, and Governance, Risk, and
-Compliance (GRC) practitioners.
-
-## Proposed Research Questions
-
-1. To what extent does official guidance for selected known-exploited
-   vulnerabilities provide actionable evidence requirements for
-   determining whether remediation can transition to closure after
-   possible prior exploitation?
-2. What post-exploitation actions are recommended, including
-   investigation, containment, credential and session response,
-   recovery, and verification?
-3. How consistently are these actions and their associated evidence
-   requirements communicated across vendors and official cybersecurity
-   organizations?
-4. What evidence-oriented closure criteria can be derived from the
-   reviewed guidance to support vulnerability-management, SOC, and
-   GRC workflows?
-
-## Proposed Research Design
-
-The study will use structured document analysis of official guidance
-associated with a defined sample of vulnerabilities from the CISA Known
-Exploited Vulnerabilities Catalog.
-
-### Sampling
-
-The initial plan is to:
-
-- Conduct a five-CVE pilot to test the evaluation framework.
-- Target five pilot CVEs plus up to 20 additional CVEs, subject to pilot
-  timing, source availability and feasibility within the appointment period.
-- Include multiple product categories using documented selection criteria.
-- Define the sampling period, source cutoff date, and inclusion and
-  exclusion criteria before the main analysis.
-
-The final sample size and selection procedure have not yet been fixed.
-
-### Sources
-
-Planned source types include:
-
-- Official vendor security advisories
-- Government and CSIRT advisories or alerts
-- Vendor technical knowledge-base articles and forensic guidance
-- Relevant incident-response guidance linked from the official sources
-
-For each source, the study will record its URL, publisher, publication
-and update dates where available, access date, and relevant document
-sections.
-
-Working source inclusion and linked-document boundaries are documented in
-the research protocol and refined during the pilot.
-
-## Proposed Evidence Taxonomy
-
-The following categories form an initial framework for coding guidance.
-Definitions and category boundaries will be tested during the pilot.
-
-| Code | Category | Proposed focus |
+## What is coded
+| Code | Category | Main concern |
 |---|---|---|
-| E1 | Exposure evidence | Affected configuration, asset exposure, and exposure window |
-| E2 | Exploitation evidence | Logs, indicators of compromise, and detection methods |
-| E3 | Containment evidence | Isolation, access restrictions, and containment verification |
-| E4 | Credential and session evidence | Credential rotation, token revocation, and session invalidation |
-| E5 | Recovery evidence | Rebuilding, restoration, and system integrity |
-| E6 | Verification evidence | Patch confirmation, vulnerability validation, and remediation checks |
-| E7 | Closure evidence | Retained records, residual-risk decisions, and closure criteria |
+| E1 | Exposure | Affected configuration and exposure window |
+| E2 | Exploitation | Investigation methods, logs and indicators |
+| E3 | Containment | Isolation and access restrictions |
+| E4 | Credentials and sessions | Secret protection, replacement, revocation and session invalidation |
+| E5 | Recovery | Cleanup, rebuilding, restoration and integrity |
+| E6 | Remediation verification | Checking a fix or mitigation |
+| E7 | Closure | Technical disposition, residual risk and authorization |
 
-## Coding framework
-
-The working design uses two independent 0–3 ordinal scales, not the
-original combined actionability scale.
+Each document-category record receives two separate scores:
 
 | Score | Operational actionability | Evidence specificity |
 |---|---|---|
-| 0 | No relevant action identified | No relevant evidence requirement identified |
-| 1 | General recommendation | General evidence/verification reference |
-| 2 | Specific operational steps | Named artifacts or observations |
-| 3 | Detailed reproducible procedure | Evidence linked to verification or a decision |
+| 0 | No relevant action identified | No relevant evidence identified |
+| 1 | General recommendation | General reference to evidence or verification |
+| 2 | Specific steps | Named artifacts or observations |
+| 3 | Detailed procedure | Evidence connected to verification or a decision |
 
-Applicability is recorded separately as A1 applicable, A2 not applicable,
-A3 conditional, or A4 undetermined. Inapplicable and unresolved cases
-are not automatically zero. Scores describe the reviewed source set;
-they do not prove the absence of compromise. Do not average these scales.
+Applicability is assessed separately. An irrelevant category or an unresolved condition is not treated as a missing instruction. The scores describe the guidance reviewed, rather than proving that a system is free from compromise. Separate maxima retain their source references; the scales are not averaged into a vendor score.
 
-The [v0.2 protocol](methodology/research-protocol-v0.2.md) defines document-level
-coding and source-attributed CVE summaries. The
-[v0.3 pilot-rule draft](methodology/pilot-rules-v0.3-draft.md) clarifies
-scenario assumptions, source versions and the distinction between technical
-response disposition, residual-risk treatment and administrative closure.
-It remains a pilot revision pending empirical testing, not a frozen protocol.
+## Progress
+| Pilot case | Document-category records | Current position |
+|---|---|---|
+| PAN-OS CVE-2024-3400 | 70 | Source review completed; historical HTML renderings remain unavailable |
+| MOVEit CVE-2023-34362 | 84 | Source review completed; current technical-disposition score is recorded in the revision file |
+| Outlook CVE-2023-23397 | 21 | Three primary documents coded; linked-source collection continues |
+| Print Spooler CVE-2021-34527 | 0 | Starting source registered |
+| Log4j CVE-2021-44228 | 0 | Starting source registered |
+| Total | 175 | The five-case pilot is not yet complete |
 
-## Planned Quality Checks
+The [coding rationale](research-notes/2026-11-09-review-checklist.md) explains the main interpretations. The [decision record](research-notes/2026-11-09-researcher-decisions.md) explains the design choices and review coverage. The [weekly update](weekly-progress/2026-11-09-weekly-progress.md) links the new outputs.
 
-- Pilot the taxonomy and scoring scale on five CVEs.
-- Retain source references supporting coding decisions.
-- Document ambiguous cases and revisions to the codebook.
-- Freeze a version of the protocol before the main coding phase.
-- Seek independent coding of a subset if a second reviewer is available.
-- Select an appropriate agreement measure after the coding design is fixed.
-- Report limitations affecting reproducibility and interpretation.
+The [repository audit](analysis/2026-11-09-full-audit.md) records corrections to inconsistent wording and older status statements. Automated checks cover the data grids, source references, summaries, revisions, snapshot identity and local links. They check internal consistency; source interpretation and technical effectiveness require different evidence.
 
-Independent review has not yet been arranged.
+## Next work
+1. Finish Outlook's eligible linked-source review.
+2. Complete Print Spooler and Log4j coding using the same scenario, source-date and category rules.
+3. Complete the pilot revision memo and full-text literature review.
+4. Set the main-study scope from available capacity and measured effort, then freeze the method.
+5. Produce the comparative findings, closure checklist, paper and agreed presentation materials.
 
-## Planned Deliverables
+The [roadmap](deliverables/research-roadmap-2026-11-03.md) sets out the proposed sequence through December 18.
 
-- Research protocol and coding guide
-- Literature review and source register
-- Five-CVE pilot analysis
-- Documented dataset and comparative analysis
-- Evidence-oriented closure checklist
-- Research paper draft
-- Poster or presentation materials
-
-Publication and conference submission will depend on the completed
-research, supervisor review, and suitable venue requirements.
-
-## Current Progress
-
-Status updated 2026-11-09:
-
-- Five pilot cases remain selected from the dated KEV snapshot.
-- PAN-OS has 70 historical first-pass records; MOVEit has 84 first-pass records.
-- [Outlook](data/outlook-pilot-2026-11-09.md) now has 21 records across three primary documents. Linked-source retrieval remains incomplete.
-- Print Spooler and Log4j retain starting sources and are not yet coded.
-- The repository now uses one authoritative location for each current document. Original PAN-OS provenance and scores are preserved.
-- The [researcher decision register](research-notes/2026-11-09-researcher-decisions.md) records reported source review of 154 historical records and accepted highlighted scores. Follow-up decisions accept MOVEit E7-T 2/3 and the Outlook preservation/recovery split. The historical recovery-source version remains unavailable.
-- The [combined review checklist](research-notes/2026-11-09-review-checklist.md) links the passages behind those decisions.
-- The [initial literature matrix](research-notes/related-work-initial-review.md) remains a seed review, not a completed full-text appraisal.
-
-The five-case pilot and main analysis remain unfinished. Dataset counts describe document-category records, not independent incidents. Reported source review is distinct from independent second-coder agreement and historical source authentication.
-
-## Next Steps
-
-1. Apply the accepted E7-T interpretation consistently to comparable records; preserve dated original scores.
-2. Complete Outlook's eligible source and direct-link retrieval.
-3. Code Print Spooler and Log4j; record actual personal work time.
-4. Complete the pilot revision memo and freeze a coherent method before the main analysis.
-5. Set the main sample size from available capacity and measured effort; complete related-work appraisal.
-6. Produce source-traceable findings, closure checklist and agreed final deliverables.
-
-See [this week's progress](weekly-progress/2026-11-09-weekly-progress.md), the [current validation report](analysis/2026-11-09-validation-report.md), and the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md).
-
-## Planned Repository Structure
-
-| Location | Purpose |
+## Repository guide
+| Folder | Contents |
 |---|---|
-| README.md | Project overview, status, and proposed research design |
-| weekly-progress/ | Dated summaries of completed work, results, obstacles, and next steps |
-| research-notes/ | Literature notes, source reviews, and research decisions |
-| methodology/ | Protocol, sampling criteria, codebook, and scoring rules |
-| data/ | Source register and coding records |
-| analysis/ | Comparative analysis and supporting scripts where needed |
-| deliverables/ | Research reports, checklist, and presentation materials |
+| methodology/ | Protocol, selection plan and scoring rules |
+| data/ | Source registers, coding records and score revisions |
+| research-notes/ | Source comparisons, literature notes and reasoning |
+| analysis/ | Validation script, results and audit reports |
+| weekly-progress/ | Dated work records and next steps |
+| deliverables/ | Change summary, roadmap and later research outputs |
 
-Current documents are stored in the directories above; historical revisions are retained in Git.
+## Preparation, review and limits
+AI assistance and subsequent researcher review are described in the [research provenance statement](methodology/research-provenance.md). Original coding and later decisions remain separately traceable. Independent second-coder results are not available.
 
-## Research Documentation
-
-GitHub is used to document research progress in line with the supervisor's
-acceptance of GitHub or other documentation methods.
-
-Weekly documentation will record completed work, actual hours, results,
-obstacles, next steps, and links to verifiable deliverables. Hours and
-activities will be recorded contemporaneously, and planned tasks will
-be distinguished from completed work.
-
-Records and work products will be retained in accordance with the
-Initiative's designated-system requirements.
-
-## Interpretation and Limitations
-
-This study evaluates published guidance within a defined source set.
-It does not assess actual compromise on production systems or establish
-the effectiveness of a vendor's overall incident response.
-
-Missing guidance in a reviewed document will not automatically be
-treated as a vendor failure. Applicability, linked sources, publication
-timing, and limitations of the review will be considered.
-
-Any resulting checklist will support documented decision-making rather
-than guarantee that an asset is free from compromise.
+Historical PAN-OS HTML captures are absent from the repository, so current pages cannot authenticate their earlier contents. Outlook retrieval and the remaining pilot cases are unfinished. Findings will be limited to the reviewed documents and stated scenarios; a closure checklist will support decisions rather than guarantee that an asset is uncompromised.
