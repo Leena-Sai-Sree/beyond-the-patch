@@ -12,7 +12,7 @@
 | School | School for Professional Studies |
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
-| Research status | Five-case pilot in progress; PAN-OS first pass recorded; MOVEit supplement started |
+| Research status | Five-case pilot in progress; PAN-OS, MOVEit and Outlook first-pass records available |
 
 ## Project Overview
 
@@ -171,40 +171,29 @@ research, supervisor review, and suitable venue requirements.
 
 ## Current Progress
 
-Status updated 2026-11-03:
+Status updated 2026-11-09:
 
-- Protocol/codebook v0.2, selection criteria and a dated KEV snapshot are recorded.
-- Seven candidates were screened and five pilot CVEs selected on October 28.
-- PAN-OS CVE-2024-3400 has 70 original first-pass coding records and seven
-  summaries awaiting researcher verification.
-- A [targeted November 3 source review](research-notes/2026-11-03-pan-os-review.md)
-  identifies interpretation and source-version issues; original scores are preserved.
-- [MOVEit CVE-2023-34362 supplemental coding](data/moveit-pilot-supplement-2026-11-03.md)
-  contains 84 first-pass records for 12 document units. The bounded source
-  review is complete with documented access and version limitations.
-- Outlook CVE-2023-23397, Print Spooler CVE-2021-34527 and Log4j
-  CVE-2021-44228 retain starting source records and remain uncoded.
-- An [initial related-work matrix](research-notes/related-work-initial-review.md)
-  has been prepared; full-text literature appraisal remains outstanding.
+- Five pilot cases remain selected from the dated KEV snapshot.
+- PAN-OS has 70 historical first-pass records; MOVEit has 84 first-pass records.
+- [Outlook](data/outlook-pilot-2026-11-09.md) now has 21 records across three primary documents. Linked-source retrieval remains incomplete.
+- Print Spooler and Log4j retain starting sources and are not yet coded.
+- The repository now uses one authoritative location for each current document. Original PAN-OS provenance and scores are preserved.
+- The [researcher decision register](research-notes/2026-11-09-researcher-decisions.md) records reported source review of 154 historical records and accepted highlighted scores. Follow-up decisions accept MOVEit E7-T 2/3 and the Outlook preservation/recovery split. The historical recovery-source version remains unavailable.
+- The [combined review checklist](research-notes/2026-11-09-review-checklist.md) links the passages behind those decisions.
+- The [initial literature matrix](research-notes/related-work-initial-review.md) remains a seed review, not a completed full-text appraisal.
 
-The pilot rules and scores remain provisional until the source checks and
-coding review are complete. The five-case pilot and main analysis are
-still in progress.
+The five-case pilot and main analysis remain unfinished. Dataset counts describe document-category records, not independent incidents. Reported source review is distinct from independent second-coder agreement and historical source authentication.
 
 ## Next Steps
 
-1. Complete the PAN-OS verification queue and apply consistent scenario,
-   E4/E6/E7 and source-version rules.
-2. Verify the MOVEit records and resolve any coding changes raised by review.
-3. Begin Outlook, then Print Spooler and Log4j, recording actual work time.
-4. Write the full pilot revision memo and freeze the method after resolving open items.
-5. Size/select the main study using observed effort; complete related-work appraisal.
-6. Produce comparative findings, a traceable closure checklist and the agreed
-   report/presentation deliverables.
+1. Apply the accepted E7-T interpretation consistently to comparable records; preserve dated original scores.
+2. Complete Outlook's eligible source and direct-link retrieval.
+3. Code Print Spooler and Log4j; record actual personal work time.
+4. Complete the pilot revision memo and freeze a coherent method before the main analysis.
+5. Set the main sample size from available capacity and measured effort; complete related-work appraisal.
+6. Produce source-traceable findings, closure checklist and agreed final deliverables.
 
-See the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md),
-[November 3 progress record](weekly-progress/2026-11-03-weekly-progress.md)
-and [data quality report](analysis/data-quality-report.md).
+See [this week's progress](weekly-progress/2026-11-09-weekly-progress.md), the [current validation report](analysis/2026-11-09-validation-report.md), and the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md).
 
 ## Planned Repository Structure
 
@@ -218,7 +207,7 @@ and [data quality report](analysis/data-quality-report.md).
 | analysis/ | Comparative analysis and supporting scripts where needed |
 | deliverables/ | Research reports, checklist, and presentation materials |
 
-Folders will be created as their contents are developed.
+Current documents are stored in the directories above; historical revisions are retained in Git.
 
 ## Research Documentation
 
