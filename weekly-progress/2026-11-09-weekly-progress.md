@@ -1,46 +1,39 @@
-# Weekly research progress — November 9–15, 2026
-Project: Beyond the Patch  
-Entry date: November 9, 2026  
-Reporting period: In progress; completed work below is dated November 9.
+# Weekly progress — November 9–15, 2026
 
-## Completed work
-- Consolidated November 3 uploads into the intended methodology, data, research-notes, analysis, deliverables and weekly-progress directories. Reconciled older directory copies with the later records while retaining original PAN-OS assistance labels and numerical scores.
-- Removed the redundant root-level KEV snapshot; the authoritative data snapshot retains the exact committed bytes and existing hash.
-- Corrected the context of the historical change summary and quality report, whose package-era statements did not describe the published layout.
-- Started Outlook CVE-2023-23397 document coding: 21 category records across three accessible official primary documents, with source metadata, section locators, rationales and a machine-readable CSV.
-- Recorded a failed script-documentation link, a JavaScript-only advisory rendering, a CISA access failure and unscreened direct official procedures rather than treating them as absent guidance.
-- Prepared one researcher checklist covering prior PAN-OS decisions, a MOVEit consistency check and the new Outlook records.
-- Recorded the 18-item researcher questionnaire: method and roster retained; source review reported for 154 historical records; specific accepted scores, missing-source limitations and unresolved decisions recorded separately.
-- Rechecked targeted PAN-OS source passages and the recovery KB's displayed October 29 revision date. These current observations do not authenticate missing October 28 captures.
+Project: Beyond the Patch\
+Entry date: November 9, 2026
+
+This entry records work completed on November 9. The reporting week is still in progress.
+
+## Work completed
+The repository files were organized into their intended folders, and duplicate root copies were removed. Older status statements were checked against the current dataset and review decisions.
+
+Outlook became the third pilot case with coding records. Three official primary documents produced 21 document-category records, with source metadata, section references, score rationales and a CSV. The retrieval log records inaccessible pages and linked procedures that still need to be screened.
+
+Review decisions for the existing 70 PAN-OS and 84 MOVEit records were documented with their reasoning. The current MOVEit E7-T score is 2/3 for a limited technical disposition. For the Outlook preservation passage, investigation remains 2/3 and recovery 0/0 because protecting evidence does not itself describe recovery.
+
+The repository audit corrected inconsistent current and historical statements and expanded the validator to 27 checks. Four temporary fault injections confirmed that it detects an invalid score, an incorrect summary source, a missing local file and a revision assigned to the wrong source. The injected changes were restored before the final validation run.
 
 ## Outputs
-- [Outlook analysis and retrieval log](../data/outlook-pilot-2026-11-09.md)
-- [Outlook coding CSV](../data/outlook-coding-2026-11-09.csv)
-- [Outlook source metadata](../data/outlook-sources-2026-11-09.json)
-- [Combined researcher review](../research-notes/2026-11-09-review-checklist.md)
-- [Researcher decision register](../research-notes/2026-11-09-researcher-decisions.md)
-- [Record-level review overlay](../data/researcher-review-2026-11-09.csv)
-- [Completed validation checks](../analysis/2026-11-09-test-record.md)
-- [Reproducible validation report](../analysis/2026-11-09-validation-report.md)
+- [Outlook analysis and retrieval log](../data/outlook-pilot-2026-11-09.md), [coding CSV](../data/outlook-coding-2026-11-09.csv) and [source metadata](../data/outlook-sources-2026-11-09.json)
+- [Methodological decisions](../research-notes/2026-11-09-researcher-decisions.md), [coding rationale](../research-notes/2026-11-09-review-checklist.md) and [record-level review log](../data/researcher-review-2026-11-09.csv)
+- [Validation results](../analysis/2026-11-09-validation-report.md), [test record](../analysis/2026-11-09-test-record.md) and [full audit](../analysis/2026-11-09-full-audit.md)
+- [Source cross-checks](../research-notes/2026-11-09-source-checks.md)
 
-## Current dataset
-| Case | Document-category records | Status |
+## Dataset at the end of this entry
+| Case | Records | Status |
 |---|---|---|
-| PAN-OS CVE-2024-3400 | 70 | Researcher reports source review; older recovery version remains unavailable |
-| MOVEit CVE-2023-34362 | 84 | Researcher reports source review; current E7-T 2/3 accepted in separate revision |
-| Outlook CVE-2023-23397 | 21 | Three primary documents coded; eligible linked-source retrieval incomplete |
-| Print Spooler CVE-2021-34527 | 0 | Starting source only |
-| Log4j CVE-2021-44228 | 0 | Starting source only |
-| Total | 175 | Category records, not independent incidents or validated findings |
+| PAN-OS | 70 | Source review completed; older HTML captures unavailable |
+| MOVEit | 84 | Source review completed; accepted E7-T revision recorded separately |
+| Outlook | 21 | Primary-document coding started; linked-source search incomplete |
+| Print Spooler | 0 | Starting source registered |
+| Log4j | 0 | Starting source registered |
+| Total | 175 | Document-category records across three cases |
 
-## Interpretation and review status
-New Outlook coding is AI-assisted first-pass analysis. Researcher decisions are recorded in the 18-item register. Source review of all 70 PAN-OS and 84 MOVEit records is reported by the researcher; exact inspection dates and row-by-row comments were not supplied. Follow-up 19=A accepts MOVEit E7-T 2/3, and 20=A confirms Outlook investigation 2/3 and recovery 0/0 for the preservation question. Original historical values remain separately identifiable. Structural validation checks record organization and arithmetic; it does not establish source interpretation accuracy or independent agreement. The five-CVE pilot is incomplete. No scans, exploit tests or changes to production systems were performed.
+## Interpretation and review
+The [provenance statement](../methodology/research-provenance.md) explains preparation and review. The review log separates original records from later decisions. The missing historical captures limit source-version verification, and independent second-coder agreement has not been measured.
 
-## Time record
-Personal research hours are not entered. No historical hours or future work are claimed as completed.
+The automated checks support the dataset's internal consistency. They do not establish the effectiveness of detection or remediation procedures. The five-case pilot, literature appraisal and main study remain unfinished.
 
-## Next work
-1. Apply the accepted E7-T interpretation consistently across comparable passages, keeping dated original records distinct.
-2. Complete Outlook's eligible linked-document screening and register source versions before final synthesis.
-3. Code Print Spooler and Log4j using consistent scenario, source-date and E7 rules.
-4. Complete the pilot revision memo, full-text literature appraisal and an effort-based main-study scope decision.
+## Time and next steps
+Personal research hours are not entered in this record. The next work is to finish Outlook's linked-source collection, code Print Spooler and Log4j, and use the completed pilot to finalize the method and main-study scope.
