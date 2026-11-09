@@ -1,7 +1,10 @@
 # PAN-OS targeted coding review
-Date: 2026-11-03  
-Case: CVE-2024-3400  
+Date: 2026-11-03\
+Case: CVE-2024-3400\
 Status: Targeted source review complete; coding verification in progress
+
+## Later interpretation record
+This note preserves the November 3 audit and its then-open verification queue. The [November 9 rationale](2026-11-09-review-checklist.md) and [methodological decision record](2026-11-09-researcher-decisions.md) explain the subsequent accepted interpretations; historical source-version limitations remain distinct.
 
 ## Scope and evidence limitation
 Reviewed the repository's protocol, all 70 table records and seven synthesis rows structurally, plus targeted passages in the nine accessible live source pages listed below. Rechecked the target KEV entry in the retained JSON. A full independent recoding of the 70 records remains outstanding. Original HTML captures referenced in source.md are absent from this checkout; their historical contents could not be inspected or authenticated against the live pages. No claim is made that current pages reproduce October 28 content.
@@ -24,7 +27,7 @@ All links below were accessed on 2026-11-03. Current renderings use N3400 identi
 | N3400-S013 / S013 | [Encryption-level procedure](https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key-encryption-level), compatibility and verification | P3400-060's 3/3 describes an encryption-setting procedure and observable result. Add E4-protect; the observation does not establish revocation, password rotation or session invalidation. |
 | Retained S015 | [Saved KEV snapshot](../data/kev-snapshot-2026-10-28.json), target entry | Membership/requiredAction is context. Do not infer compromise of a particular asset or closure from KEV status. |
 
-The observations below identify the records requiring further verification. No exploit, mitigation test or vendor command was executed against an asset.
+The observations below identify the verification tasks that were open on November 3; the later rationale records their current interpretation. No exploit, mitigation test or vendor command was executed against an asset.
 
 ## Priority decisions
 1. Preserve original numeric coding until historical-source and rule review is complete. The present audit identifies interpretation/version risks rather than substantiating a wholesale replacement dataset.
@@ -33,7 +36,7 @@ The observations below identify the records requiring further verification. No e
 4. Keep prevention-based E3 and mitigation-based E6 overlap visible; do not add them into a total.
 5. Compare C scenarios explicitly and report capability/deployment differences. Merely exposed devices cannot inherit P3400-A applicability.
 
-## Researcher verification queue
+## Historical verification queue (November 3)
 | Priority | Records | Verification needed |
 |---|---|---|
 | First | P3400-042; E7 synthesis | Adopt E7 scope and check the authored FAQ |

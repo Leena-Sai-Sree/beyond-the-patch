@@ -1,52 +1,58 @@
-# Researcher decisions — November 9, 2026
-Researcher: Leena Sai Sree Maridi  
-Decision receipt date: 2026-11-09  
-Instrument: 18-item research scope, coding and review questionnaire
+# Research decisions and their rationale
 
-## Decision register
-Numbering follows the submitted questionnaire beginning with research scope and ending with the next milestone. It does not follow a later, differently numbered question list. Lowercase selections are normalized to uppercase. The record distinguishes accepted methods, source-review confirmations and unresolved scoring choices.
+November 9, 2026
 
-| Question | Selection | Topic | Recorded decision |
-|---|---|---|---|
-| 1 | A | Research scope | Published guidance remains the study object; no asset-level compromise determination. |
-| 2 | A | Research objective | Retain coverage, operational detail, evidence requirements, gaps, ambiguities and contextual differences. |
-| 3 | A | Pilot selection | Retain PAN-OS, MOVEit, Outlook, Print Spooler and Log4j. |
-| 4 | A, qualified | Sampling limitation | Accept purposive-sample limits. Perform feasible validation and describe actual tests; testing does not make this sample representative. |
-| 5 | A | Coding unit | Retain document version × CVE × evidence category with source-attributed synthesis. |
-| 6 | A | Scoring | Retain separate 0–3 actionability and evidence-specificity scales; no aggregate vendor score. |
-| 7 | A | Applicability | Retain applicable, not applicable, conditional and undetermined classifications separately. |
-| 8 | A | Scenario policy | Retain explicit compromise-response scenarios as analytical constructions, not observed incidents. |
-| 9 | A | PAN-OS E7 / R1 | Retain P3400-042 at 2/3 for technical disposition only; no administrative-closure inference. |
-| 10 | A | PAN-OS verification / R2 | Retain P3400-003/006/041 at 3/3 with mitigation versus installed-build facets. |
-| 11 | A | PAN-OS master key / R3 | Compatible narrow-function guidance accepted for P3400-053 at 3/2 and P3400-060 at 3/3. |
-| 12 | B | PAN-OS historical capture / R4 | Original October 28 recovery capture is unavailable; preserve historical limitation and distinguish later versions. |
-| 13 | B | MOVEit consistency / R5 | Reconsider technical-disposition credit for M34362-007 under the same E7 rule as PAN-OS; no replacement numerical score selected. |
-| 14 | A | Outlook investigation and credentials / R6 | Retain O23397-002 at 3/3 and O23397-004 at 2/0. |
-| 15 | U | Outlook preservation / R7 | Unresolved: O23397-009 at 2/3 and O23397-012 at 0/0 remain first-pass values, not accepted decisions. |
-| 16 | A | Outlook alert / R8 | Retain O23397-016 at 1/0, O23397-017/018 at 2/0 and O23397-020 at 1/0. |
-| 17 | A | Review coverage | Researcher reports checking all 70 PAN-OS and 84 MOVEit records against sources. Specific exceptions above remain open. |
-| 18 | A | Next milestone | Finish Outlook linked-source retrieval, then Print Spooler and Log4j before sample expansion. |
+Leena Sai Sree Maridi
 
-## Coverage and evidential limits
-Question 17 reports source review of the 154 existing PAN-OS and MOVEit rows. This is the researcher's review of the first-pass dataset, not an independently coded second dataset or a measured agreement result. The date above records receipt of the decisions; exact source-inspection dates, review durations and individual row comments were not supplied. No personal hours or agreement coefficient are inferred.
+## What the study examines
+A patch check and a compromise investigation answer different questions. The first establishes whether the vulnerable software or configuration has been addressed. The second examines what an attacker may have done before that point and what response is needed.
 
-Question 12 establishes that the older recovery capture is unavailable. Review of a later live page cannot authenticate the October 28 wording underlying P3400-029–035. These rows retain their historical scores and the missing-version limitation.
+The study compares how official guidance connects these tasks. It records the actions described, the detail needed to carry them out, and the evidence used to assess the result. The analysis concerns the guidance, rather than the compromise state of a particular production system.
 
-Question 13 initially requested reconsideration and question 15 was initially unresolved. Follow-up decisions 19=A and 20=A resolve both: M34362-007 is currently E7-T 2/3; O23397-009 remains E2 2/3 and O23397-012 remains E5 0/0. The original MOVEit 0/0 is preserved as historical coding, not the current accepted score.
+A missing instruction is recorded as a gap in the reviewed source set. An instruction that leaves its trigger, scope or expected result unclear is recorded as an ambiguity. Before describing two recommendations as inconsistent, the comparison considers their dates, product versions, deployments and response scenarios.
 
-## Application to records
-The [review overlay](../data/researcher-review-2026-11-09.csv) records coverage and exceptions separately from historical coding. The original PAN-OS and MOVEit rows and assistance provenance remain intact. New Outlook metadata identifies accepted highlighted scores separately from unresolved and unreviewed records. No rule change is silently applied to unexamined categories.
+## Why these five cases
+PAN-OS, MOVEit, Outlook, Print Spooler and Log4j give the pilot different problems to work through: an appliance, file-transfer software, a client application, an operating-system service and a software dependency. A framework that works for one of these may need adjustment for another. The [selection log](../data/pilot-candidate-selection-log.md) records the individual reasons and the two screened alternatives.
 
-## Validation policy
-The scope qualification attached to question 4 authorizes feasible validation. Structural checks cover links, identifiers, record grids, score ranges, summary calculations and snapshot identity. These checks are documented in the [test record](../analysis/2026-11-09-test-record.md). They do not establish detection accuracy, remediation effectiveness, non-compromise or statistical representativeness. Technical testing requires an identified artifact, a suitable environment, expected outcomes and an actual result before it is reported as completed. Material limits remain part of the interpretation.
+This is a purposive sample. Its purpose is to test the framework and compare response requirements, not estimate the frequency of guidance problems across the KEV Catalog. Additional testing does not change how the cases were selected.
 
-## Follow-up decisions
-| Question | Selection | Decision |
+## Why coding stays at document level
+Each record identifies one document version, CVE and evidence category. This keeps the source of an instruction visible. If a short alert links to a detailed manual, the manual is assessed separately; its detail is not credited to the alert. Later page revisions also remain separate from earlier observations.
+
+The CVE summary brings the documents together while retaining their references. Its maximum scores show the strongest guidance found for each category. They do not establish that separate instructions form one complete or compatible response procedure.
+
+## Why there are two scores
+An instruction can be specific about what to do without explaining how to verify the result. Password-reset advice illustrates the distinction: naming the accounts to reset supplies an action, but it may leave the completion evidence unstated. A document can also identify a useful log without describing how to collect it.
+
+Actionability and evidence specificity are therefore scored separately. Combining them would hide the difference between carrying out a task and assessing its outcome. They are not averaged into a vendor-quality score.
+
+## How applicability is handled
+Applicability depends on the case scenario, not on whether a document mentions a category. Credential response may be relevant to a compromised device even when a particular advisory is silent about it.
+
+The coding keeps applicable, inapplicable, conditional and undetermined cases separate. Otherwise, a zero could mean several different things: the instruction is absent, the activity is irrelevant, or the available context is insufficient.
+
+Each scenario states the relevant product, deployment and exploitation capability. Those conditions frame the document analysis; they are not observations from an actual incident.
+
+## Decisions retained in the dataset
+| Issue | Current interpretation | Reason |
 |---|---|---|
-| 19 | A | M34362-007: E7-T actionability 2, evidence specificity 3, limited to the stated cleanup checks supporting transition to the next response stage. Administrative closure is not established. |
-| 20 | A | Retain O23397-009 at investigation 2/3 and O23397-012 at recovery 0/0; preservation advice alone is not a recovery procedure. |
+| PAN-OS response disposition | P3400-042: E7-T 2/3 | A post-response assessment supports a limited technical conclusion, without establishing administrative closure. |
+| PAN-OS verification | P3400-003/006/041: 3/3 with separate facets | Testing protection behavior and checking the installed build verify different properties. |
+| PAN-OS master-key guidance | P3400-053: 3/2; P3400-060: 3/3 | The procedures concern key protection and encryption properties; they do not cover every credential or session task. |
+| PAN-OS recovery-source history | Original scores retained with a version limitation | The current page cannot establish the contents of the missing October 28 rendering. |
+| MOVEit response disposition | M34362-007: current E7-T 2/3 | Cleanup verification supports a limited transition to the next response stage. |
+| Outlook investigation and credentials | O23397-002: 3/3; O23397-004: 2/0 | Detailed investigation guidance does not supply evidence that credential replacement is complete. |
+| Outlook preservation and recovery | O23397-009: E2 2/3; O23397-012: E5 0/0 | Preserving investigation evidence is different from providing a recovery procedure. |
+| Outlook primary alert | O23397-016: 1/0; 017/018: 2/0; 020: 1/0 | The alert receives credit for its own instructions, with linked procedures assessed separately. |
 
-The [current score revisions](../data/score-revisions-2026-11-09.csv) separate accepted values from unchanged historical records. These decisions are received November 9; actual source-inspection dates are not supplied.
+The [coding notes](2026-11-09-review-checklist.md) explain these decisions against the source passages. The [revision file](../data/score-revisions-2026-11-09.csv) records accepted scores alongside their original values. MOVEit's earlier E7 0/0 remains part of the history; current analysis uses 2/3.
 
-## Remaining work
-Complete Outlook source retrieval, apply the accepted technical-disposition criterion to comparable records, and finish the other two selected pilot cases.
+## Review and source history
+Source review covered 70 PAN-OS and 84 MOVEit records. The [review log](../data/researcher-review-2026-11-09.csv) records that coverage and the highlighted Outlook decisions. This was review of the existing coding, not a second independently coded dataset, so an agreement coefficient cannot be calculated from it.
+
+The original register lists eight historical PAN-OS HTML captures that are absent from the repository. The listed hashes cannot restore those files. Live pages can support a current interpretation but cannot authenticate an earlier rendering, particularly where a later revision is visible. The November 9 date on these notes records the decisions, rather than the date of every source inspection.
+
+Preparation and assistance are described in the [provenance statement](../methodology/research-provenance.md). The [test record](../analysis/2026-11-09-test-record.md) covers the automated checks and their limits.
+
+## What follows
+The immediate work is to finish Outlook's eligible linked-source review, then complete Print Spooler and Log4j. The completed pilot will show whether the category rules are consistent enough to freeze and how much main-study work fits within the remaining time.

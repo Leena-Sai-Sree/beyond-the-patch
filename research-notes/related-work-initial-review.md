@@ -1,5 +1,5 @@
 # Related work — initial scoped review
-Date: 2026-11-03  
+Date: 2026-11-03\
 Status: Seed review and search record; not a completed systematic literature review
 
 ## Search performed
@@ -21,9 +21,9 @@ All sources accessed 2026-11-03. Publication years follow the bibliographic reco
 ## Preliminary synthesis
 The reviewed material suggests three adjacent lines of work: managing and verifying patches; conducting and documenting incident recovery; and communicating vulnerability information or preserving useful incident data. Beyond the Patch can examine how selected official CVE-specific source sets connect these activities.
 
-A defensible working contribution statement is: “This study applies a transparent document-analysis framework to characterize response instructions and decision-supporting evidence in official guidance for a purposive sample of known-exploited vulnerabilities.”
+The working contribution is: “This study applies a transparent document-analysis framework to characterize response instructions and decision-supporting evidence in official guidance for a purposive sample of known-exploited vulnerabilities.”
 
-Do not yet claim “the first study,” that current guidance is generally inadequate, or that patch-management research ignores compromise response. Those claims need a broader full-text review and completed data analysis.
+The current review does not establish novelty or show that guidance is generally inadequate. Those conclusions would require a broader full-text review and completed analysis.
 
 ## Next search and appraisal procedure
 Search ACM Digital Library, IEEE Xplore, USENIX, Google Scholar and institutional access where available using:
