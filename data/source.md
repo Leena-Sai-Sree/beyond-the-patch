@@ -1,11 +1,11 @@
 # Pilot Source Register
 
-**Project:** Beyond the Patch  
-**Updated:** 2026-11-03; historical source entries remain dated October 28
+**Project:** Beyond the Patch\
+**Updated:** 2026-11-09; historical source entries remain dated October 28
 
-**Status (current note 2026-11-03):** Historical PAN-OS source review preserved below; separate November 3 PAN-OS review and MOVEit supplement linked at the end. The original register entries remain dated October 28.
+**Current status:** PAN-OS and MOVEit have bounded first-pass source sets. Outlook has three coded primary sources and an incomplete linked-source search. Print Spooler and Log4j retain starting sources. The historical October 28 register below is preserved separately from later observations.
 
-## Collection Boundaries
+## Historical October 28 collection boundaries
 
 | Item | Value |
 |---|---|
@@ -41,7 +41,7 @@ The starting documents were accessible through the browsing interface. The PAN-O
 | R005 | CVE-2021-34527 | 2026-10-28 | Microsoft clarified guidance | Accessible; initial eligibility established | S004 | Primary advisory, government sources, and eligible direct links remain to be screened |
 | R006 | CVE-2021-44228 | 2026-10-28 | Apache legacy security URL | Redirected to consolidated security page; target section accessible | S005 | Government/CSIRT sources and eligible direct links remain to be screened |
 
-## Retrieval Coverage
+## Historical retrieval coverage (October 28)
 
 | CVE | KEV membership checked | Vendor document inspected | Government/CSIRT document inspected | Direct-link screen complete | Status |
 |---|---|---|---|---|---|
@@ -57,12 +57,12 @@ Source IDs identify document versions and remain stable across associated CVEs. 
 
 Source eligibility and applicability are separate decisions. Source silence does not establish nonapplicability. Scores, supporting paraphrases, conditional triggers, and decision rationales belong in the [Pilot Coding Worksheet](pilot-coding-worksheet.md).
 
-The source set for the full five-CVE pilot remains incomplete. The worksheet records provisional PAN-OS coding within the case boundaries below; no full-pilot findings or actual asset-closure conclusions are established.
+The full pilot source set is not yet complete. The worksheet records PAN-OS coding within the boundaries below, with later decisions documented separately.
 
 ## PAN-OS Case Source Review
 
-**Case:** CVE-2024-3400  
-**Review date:** 2026-10-28  
+**Case:** CVE-2024-3400\
+**Review date:** 2026-10-28\
 **Status:** Bounded first-pass retrieval and coding completed with access/version limitations; researcher review pending
 **Coding:** [Pilot Coding Worksheet](pilot-coding-worksheet.md#first-pilot-case-cve-2024-3400)
 
@@ -108,7 +108,7 @@ All access dates are 2026-10-28. Each included document is official and relevant
 
 ### Retained Evidence
 
-Eight substantive HTML captures are retained locally in the task evidence directory. They are not bundled for republication on GitHub. The following SHA-256 values identify those captures; complete pages may include navigation and unrelated current content. Coding is restricted to the relevant main document sections.
+The October 28 record lists eight local HTML captures and their hashes. Those files are absent from the current repository and their continued retention cannot be established here. The table preserves the historical identifiers, not a claim of present access or authentication. A hash alone cannot reproduce the missing source text.
 
 | Source ID | Local evidence file | SHA-256 |
 |---|---|---|
@@ -123,7 +123,7 @@ Eight substantive HTML captures are retained locally in the task evidence direct
 
 S010 has an accessible canonical source and recorded section locators and paraphrases, but no full HTML capture. S015 uses the existing [retained KEV snapshot](kev-snapshot-2026-10-28.json), SHA-256 2d9931c086e42d05425c2da924299c8d9b7ff836de373f981668b7ef5f6f0fd7. Its Git blob was checked against the downloaded official snapshot and matched.
 
-The capture directory is a local evidence location, not an assertion that raw pages are available in the public repository. Hashes establish file identity, not completeness, authenticity of every page element, or correctness of coding.
+The listed paths describe historical evidence locations. Current source review cannot establish equivalence to those missing renderings. Hashes establish identity only when the corresponding bytes are available; they do not establish completeness or coding correctness.
 
 ### Retrieval Completion Record
 
@@ -146,4 +146,4 @@ Temporal policy and scenario/facet clarifications are in the [v0.3 pilot draft](
 
 ## November 9 Outlook observation series
 
-[Outlook source and coding increment](outlook-pilot-2026-11-09.md) registers N23397-S001 through N23397-S003, with 21 first-pass records and an explicit pending-link log. November 9 observations do not replace October 28 S003. See the [machine-readable source register](outlook-sources-2026-11-09.json) and [combined review checklist](../research-notes/2026-11-09-review-checklist.md). The pilot source collection remains incomplete.
+[Outlook source and coding increment](outlook-pilot-2026-11-09.md) registers N23397-S001 through N23397-S003, with 21 first-pass records and an explicit pending-link log. November 9 observations do not replace October 28 S003. See the [machine-readable source register](outlook-sources-2026-11-09.json) and [evidence and coding rationale](../research-notes/2026-11-09-review-checklist.md). The pilot source collection remains incomplete.

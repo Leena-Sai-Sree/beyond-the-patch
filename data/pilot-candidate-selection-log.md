@@ -1,6 +1,6 @@
 # Pilot Candidate Selection Log
 
-**Project:** Beyond the Patch  
+**Project:** Beyond the Patch\
 **Updated:** 2026-11-09; October 28 selection retained
 
 **Status (updated 2026-11-09):** Seven candidates screened; five selected; PAN-OS 70, MOVEit 84 and Outlook 21 first-pass category records; Print Spooler and Log4j not yet coded
@@ -18,12 +18,12 @@ The official CISA KEV dataset was downloaded from the [cisagov/kev-data reposito
 | Catalog release timestamp | 2026-10-27T19:00:02.2307Z |
 | Catalog entry count | 1760 |
 | SHA-256 | 2d9931c086e42d05425c2da924299c8d9b7ff836de373f981668b7ef5f6f0fd7 |
-| Pilot source cutoff | 2026-10-28; sources published or updated after this date are excluded |
+| October 28 historical-series source cutoff | 2026-10-28; later observations are retained separately in the November 3 and November 9 series |
 | Historical scope | Guidance available at collection, not a reconstruction of guidance available when each vulnerability was disclosed |
 
 The candidate pool is a purposive convenience shortlist of seven established KEV cases from 2021–2024. It is not an exhaustive screen of that period or the full catalog. Every candidate was checked against the retained snapshot and at least one accessible official source. Source content was inspected for product identity, vulnerability mechanism, and relevance; no actionability or evidence scores were assigned during selection.
 
-The pool was assembled to test three deployment categories and several vulnerability mechanisms. Familiarity and discoverability influenced the shortlist. Selection was not based on a measured documentation score, but familiarity can favor prominent, well-documented incidents; this limits interpretation.
+The shortlist covers three deployment categories and several vulnerability mechanisms. Familiarity with the incidents and the ease of finding official documents influenced which cases were considered. Selection was not based on a measured documentation score, but familiarity can favor prominent, well-documented incidents; this limits interpretation.
 
 ## Candidate Screening
 
@@ -71,7 +71,7 @@ Categories are analytical deployment labels, not claims that a product can only 
 
 ## Retrieval Limitations and Remaining Work
 
-The October 28 starting register was subsequently expanded for PAN-OS; its bounded first-pass source review and 70 original coding records are documented. A separate [November 3 MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) has 84 first-pass records across 12 document units; bounded screening is complete with access/version limitations. The other three cases retain starting sources. The full five-case source set is incomplete.
+The October 28 starting register was subsequently expanded for PAN-OS; its bounded first-pass source review and 70 original coding records are documented. A separate [November 3 MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) has 84 first-pass records across 12 document units; bounded screening is complete with access/version limitations. Outlook now has a November 9 increment; Print Spooler and Log4j retain starting sources. The full five-case source set is incomplete.
 
 Direct CISA advisory access returned HTTP 403 in the browsing interface. This is an access limitation, not evidence of absent guidance. The official KEV dataset was accessible through CISA's GitHub repository.
 

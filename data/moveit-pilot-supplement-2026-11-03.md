@@ -1,8 +1,8 @@
 # MOVEit pilot — November 3 supplement
-CVE: CVE-2023-34362  
-Date/access date: 2026-11-03  
+CVE: CVE-2023-34362\
+Date/access date: 2026-11-03\
 Historical status (November 3): Bounded screening and first-pass coding complete; researcher verification was pending.
-Current status (November 9): Researcher reports source review of all 84 records; accepted E7-T revision appears below and in the score-revisions file. Access/version limitations remain.  
+Current status (November 9): Source review covers all 84 records; accepted E7-T revision appears below and in the score-revisions file. Access/version limitations remain.\
 Rules: [v0.2 protocol](../methodology/research-protocol-v0.2.md) with explicit [v0.3 draft clarifications](../methodology/pilot-rules-v0.3-draft.md)
 
 ## Relationship to existing records
@@ -34,10 +34,10 @@ All E1–E7 categories are A1 in this scenario: exposure and investigation, acce
 The source set contains 12 scored document units, including two versions of AA23-158A and one retained KEV entry. The eleven live documents were reviewed through rendered web/PDF text on November 3; full raw captures were not retained. Historical October 28 equivalence is unestablished. No supplied detection code or remediation procedure was executed. Version pairs are not independent corroboration.
 
 ## November 9 accepted score revision
-Follow-up 19=A accepts M34362-007 at current E7-T 2/3, limited to the explicit cleanup verification outcome and subsequent response-stage transition. Thus current E7 maxima are 2/3, both supported by N34362-S001. Administrative closure is not established. The original table and historical synthesis below retain November 3 scores; apply the [score revision](score-revisions-2026-11-09.csv) for current analysis. This is a revision to one existing record, not an additional observation.
+The accepted technical-disposition interpretation assigns M34362-007 current E7-T 2/3, limited to the explicit cleanup verification outcome and subsequent response-stage transition. Thus current E7 maxima are 2/3, both supported by N34362-S001. Administrative closure is not established. The original table and historical synthesis below retain November 3 scores; apply the [score revision](score-revisions-2026-11-09.csv) for current analysis. This is a revision to one existing record, not an additional observation.
 
 ## Document-category records
-Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation condition assumed in scenario; review status: draft, awaiting researcher verification; coding date 2026-11-03; protocol v0.2 plus v0.3 draft. A/E = actionability/evidence specificity. Each rationale describes only the named document and compatible scenario.
+Shared fields for every row: CVE-2023-34362; M34362-C; A1; exploitation condition assumed in scenario; historical review status (November 3): draft, awaiting researcher verification; coding date 2026-11-03; protocol v0.2 plus v0.3 draft. A/E = actionability/evidence specificity. Each rationale describes only the named document and compatible scenario.
 
 | Record ID | Source version | Category / facet | A | E | Section | Observation and score rationale |
 |---|---|---|---|---|---|---|
@@ -139,7 +139,7 @@ E4 evidence 2 in the vendor source refers to account/session-related inspection 
 | E6 | 2 / N34362-S001, N34362-S002, N34362-S010, N34362-S011 | 2 / N34362-S001, N34362-S002, N34362-S007, N34362-S010, N34362-S011 | Cumulative patch targets are identified; a local installed-build check was not supplied in eligible reviewed text. |
 | E7 | 0 / N34362-S001, N34362-S002, N34362-S003, N34362-S004, N34362-S005, N34362-S006, N34362-S007, N34362-S008, N34362-S009, N34362-S010, N34362-S011, N34362-S012 | 0 / N34362-S001, N34362-S002, N34362-S003, N34362-S004, N34362-S005, N34362-S006, N34362-S007, N34362-S008, N34362-S009, N34362-S010, N34362-S011, N34362-S012 | No explicit disposition criterion identified in accessible sources; inaccessible linked guidance prevents an overall absence claim. |
 
-The 84 records cover 12 scored document units and all seven categories. Maxima describe the accessible source set only. AA23-158A versions remain linked as one document family; repeating them does not strengthen independent corroboration. Scores remain provisional pending researcher verification.
+The 84 records cover 12 scored document units and all seven categories. Maxima describe the accessible source set only. AA23-158A versions remain linked as one document family; repeating them does not strengthen independent corroboration. This synthesis preserves the original November 3 scores; current interpretation applies the later review and score revisions.
 
 ## Retrieval completion log
 All decisions below were recorded on 2026-11-03. Screening is complete for the stated boundary; inaccessible material remains a limitation.
@@ -183,11 +183,11 @@ Excluding an edition-mismatched manual does not establish that its advice is unu
 - Account-audit scope: the revised official PDF preserves a query using Permission=30. It supports a particular account check, not an audit of every possible administrator role or proof that all persistence was removed.
 - Version compatibility: five linked manuals are from 2022 and another renders as 2023.1. Their exclusion is a scope limitation, not a zero score or a finding that no procedure exists.
 - Service-account changes: the current vendor KB records a certificate-management issue and workaround; password-reset evidence alone does not validate dependent services or all exposed secrets.
-- Retrieval outcome: the bounded first-pass review is complete with recorded access limitations. Researcher verification and a common temporal policy remain prerequisites to final cross-case analysis.
+- Retrieval outcome: the bounded first-pass review is complete with recorded access limitations. Source review is documented; a common temporal policy and consistent application of the current scoring rules remain prerequisites to final cross-case analysis.
 - Next case: Outlook CVE-2023-23397.
 
 Actual research hours have not been entered. Independent coding agreement has not been measured.
 
 
 ## November 9 researcher decisions
-See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). The researcher reports source review of the historical rows. Original scores and first-pass provenance are retained as historical records; the separate overlay distinguishes accepted decisions, unresolved interpretations and missing historical versions. No independent agreement statistic is claimed.
+See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). Source review covers the 84 historical rows. Original scores and first-pass provenance are retained; the separate overlay records accepted interpretations and source-version limits. No independent agreement statistic is claimed.

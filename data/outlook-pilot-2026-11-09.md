@@ -1,6 +1,6 @@
 # Outlook pilot — November 9 source and coding increment
-CVE: CVE-2023-23397  
-Observation date: 2026-11-09  
+CVE: CVE-2023-23397\
+Observation date: 2026-11-09\
 Status: Three accessible primary documents coded; linked-document retrieval continues
 
 ## Study context
@@ -19,7 +19,7 @@ The document analysis uses an affected Windows Outlook client with an on-premise
 Access date for all three documents: November 9, 2026. Coding uses rendered main-document text, excluding navigation and related posts. Complete raw captures were not retained. [Machine-readable source register](outlook-sources-2026-11-09.json).
 
 ## Document-category coding
-A = operational actionability; E = evidence specificity. Both are ordinal 0–3 dimensions. All rows use O23397-C and applicability A1. The [CSV](outlook-coding-2026-11-09.csv) carries the shared metadata. These are AI-assisted first-pass records. The [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) accepts the highlighted Microsoft and Canadian-alert scores; follow-up 20=A also accepts the CERT-EU preservation/recovery split. Other records are not covered by those specific confirmations. Independent second-coder results are not available.
+A = operational actionability; E = evidence specificity. Both are ordinal 0–3 dimensions. All rows use O23397-C and applicability A1. The [CSV](outlook-coding-2026-11-09.csv) carries the shared metadata. Preparation and review are documented in the [research provenance statement](../methodology/research-provenance.md). The [coding rationale](../research-notes/2026-11-09-review-checklist.md) explains the retained Microsoft, Canadian and CERT-EU scores. These specific reviews do not cover every Outlook row.
 
 | Record | Source | Category / facet | A | E | Section | Observation and rationale |
 |---|---|---|---|---|---|---|
@@ -78,10 +78,10 @@ These maxima describe the current three-document subset, not the complete CVE gu
 
 Queries included site:cert.europa.eu CVE-2023-23397 advisory; site:cyber.gc.ca CVE-2023-23397 March 2023; and site:cisa.gov CVE-2023-23397 Microsoft Outlook March 2023. Retrieval is incomplete. No commands, queries, scans or remediation procedures were executed against assets.
 
-## Decisions carried into review
+## Current interpretation rules
 1. Keep attempted triggering, credential leakage and successful subsequent access distinct when interpreting E2.
-2. Resolve how audit-before-cleanup sequencing is captured without turning preservation advice into recovery completion.
+2. Classify audit-before-cleanup advice as investigation/evidence preservation; it does not itself provide a recovery procedure.
 3. Retain prevention/authentication-protection facets separately from credential replacement and session invalidation.
 4. Apply the same E7 threshold used for PAN-OS and MOVEit; the current primary documents receive no explicit-disposition credit.
 
-See the [combined review checklist](../research-notes/2026-11-09-review-checklist.md). Actual personal research hours are not recorded for this increment. Remaining work is linked-source retrieval, consistent application of the accepted category boundaries and recoding where decisions change the rules.
+See the [evidence and coding rationale](../research-notes/2026-11-09-review-checklist.md). Actual personal research hours are not recorded for this increment. Remaining work is linked-source retrieval, consistent application of the accepted category boundaries and recoding where decisions change the rules.

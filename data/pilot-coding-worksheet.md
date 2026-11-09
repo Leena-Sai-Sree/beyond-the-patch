@@ -1,7 +1,7 @@
 # Pilot Coding Worksheet
 
-**Project:** Beyond the Patch  
-**Date:** October 28, 2026  
+**Project:** Beyond the Patch\
+**Date:** October 28, 2026\
 **Status (October 28 series):** First-pass PAN-OS coding added; four pilot CVEs were uncoded at that date; researcher review pending
 
 **Methodological basis:** [Research Protocol v0.2](../methodology/research-protocol-v0.2.md) and [Coding Guide v0.2](../methodology/coding-guide-v0.2.md)
@@ -58,7 +58,7 @@ The two scores measure separate dimensions. Evidence specificity of 3 does not e
 
 ## First Pilot Case: CVE-2024-3400
 
-**Analysis date:** 2026-10-28  
+**Analysis date:** 2026-10-28\
 **Coding status:** 70 first-pass document-category records and seven synthesis records; researcher review pending
 **Source inventory and version evidence:** [Pilot Source Register](source.md#pan-os-case-source-review)
 
@@ -78,7 +78,7 @@ The scenario makes a pilot operational choice explicit; it is not a frozen main-
 - E7 covers explicit advice supporting a response disposition, including the vendor article's FAQ about assessing the device after a hotfix. Its limited E7 credit does not imply a complete administrative closure standard.
 - A source's references do not inherit the scores of linked documents. Each included document is coded separately.
 
-## Document-Level Coding
+## Historical October 28 document-level coding
 
 One record represents one document version × CVE × evidence category. Source IDs refer to included documents in the source register.
 
@@ -159,7 +159,7 @@ A score of 0 records an assessed absence within an eligible reviewed document. A
 
 Inaccessible content and unresolved source eligibility do not receive scores. Such limitations remain in the source register.
 
-## CVE-Level Synthesis
+## Historical October 28 CVE-Level Synthesis
 
 One synthesis record represents one CVE × evidence category.
 
@@ -206,7 +206,7 @@ Time entries reflect actual recorded work. Missing time records remain missing r
 Independent coding and delayed self-recoding are recorded distinctly. Methodological revisions retain their rationale and affected records. Pilot cases must be recoded under the frozen protocol before inclusion with main-study results.
 
 ## November 9 provenance note
-The original record-level Codex-assisted draft labels are retained. Later source checks and researcher decisions are separate events; no independent human review is recorded by the repository consolidation. See the [combined review checklist](../research-notes/2026-11-09-review-checklist.md).
+The original record-level Codex-assisted draft labels are retained. Later source checks and researcher decisions are separate events; the consolidation itself is not an independent second-coder assessment. See the [evidence and coding rationale](../research-notes/2026-11-09-review-checklist.md).
 
 ## November 9 researcher decisions
-See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). The researcher reports source review of the historical rows. Original scores and first-pass provenance are retained as historical records; the separate overlay distinguishes accepted decisions, unresolved interpretations and missing historical versions. No independent agreement statistic is claimed.
+See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). Source review covers the 70 historical rows. Original scores and first-pass provenance are retained; the separate overlay distinguishes accepted interpretations from unauthenticated historical source versions. No independent agreement statistic is claimed.
