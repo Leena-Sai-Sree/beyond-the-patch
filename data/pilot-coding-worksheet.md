@@ -2,8 +2,13 @@
 
 **Project:** Beyond the Patch  
 **Date:** October 28, 2026  
-**Status:** First-pass PAN-OS coding added; four pilot CVEs remain uncoded; human review pending  
+**Status (October 28 series):** First-pass PAN-OS coding added; four pilot CVEs were uncoded at that date; researcher review pending
+
 **Methodological basis:** [Research Protocol v0.2](../methodology/research-protocol-v0.2.md) and [Coding Guide v0.2](../methodology/coding-guide-v0.2.md)
+
+## November 3 status note
+
+This file preserves the October 28 PAN-OS 70-record series and its numeric scores. See the [targeted review](../research-notes/2026-11-03-pan-os-review.md) for version/interpretation issues and the separate [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) for new coding. Three pilot cases remain uncoded. MOVEit bounded screening and first-pass coding are complete with access/version limitations; its 84 records remain subject to researcher verification. The review-status labels have been standardized; scores and supporting analytical fields are retained.
 
 ## Purpose
 
@@ -54,7 +59,7 @@ The two scores measure separate dimensions. Evidence specificity of 3 does not e
 ## First Pilot Case: CVE-2024-3400
 
 **Analysis date:** 2026-10-28  
-**Coding status:** 70 first-pass document-category records and seven synthesis records; human review pending  
+**Coding status:** 70 first-pass document-category records and seven synthesis records; researcher review pending
 **Source inventory and version evidence:** [Pilot Source Register](source.md#pan-os-case-source-review)
 
 ### Analytical Scenario P3400-A
@@ -63,7 +68,7 @@ This is a document-analysis scenario, not an observed incident: a self-managed, 
 
 All seven categories are A1 for this scenario, independently of source coverage. Conditional response triggers are assumed within the analytical scenario only; no incident facts have been established. These scores must not be applied unchanged to an exposed device with no evidence of exploitation, or to a hardware appliance. Case-level E4/E5 applicability for those other scenarios could be A3 or A4.
 
-The scenario makes a pilot operational choice explicit; it is not a frozen main-study rule. Its severity can affect coverage and must be considered before cross-CVE comparisons. No sources were executed against an asset. No human time records, independent agreement, or supervisor approval are claimed.
+The scenario makes a pilot operational choice explicit; it is not a frozen main-study rule. Its severity can affect coverage and must be considered before cross-CVE comparisons. No sources were executed against an asset. Work durations and independent agreement have not been recorded.
 
 ### Category Boundaries Used
 
@@ -77,7 +82,7 @@ The scenario makes a pilot operational choice explicit; it is not a frozen main-
 
 One record represents one document version × CVE × evidence category. Source IDs refer to included documents in the source register.
 
-| Record ID | CVE | Source ID | Category | Applicability | Applicability rationale | Conditional trigger and status | Actionability | Evidence specificity | Supporting section or page | Brief evidence paraphrase | Score rationale | Limitations | Coder | Coding date | Protocol version |
+| Record ID | CVE | Source ID | Category | Applicability | Applicability rationale | Conditional trigger and status | Actionability | Evidence specificity | Supporting section or page | Brief evidence paraphrase | Score rationale | Limitations | Review status | Coding date | Protocol version |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | P3400-001 | CVE-2024-3400 | S001 | E1 | A1 | Scenario P3400-A; exposure determination relevant | P3400-A assumed for document analysis; no real asset assessed | 3 | 3 | Required Configuration for Exposure; Product Status | Check configured services and version against affected criteria. | Located configuration checks support exposure decisions. | Current reviewed version; no asset effectiveness test | Codex-assisted draft; human review pending | 2026-10-28 | v0.2; P3400-A pilot memo |
 | P3400-002 | CVE-2024-3400 | S001 | E2 | A1 | Scenario P3400-A; investigation relevant | P3400-A assumed for document analysis; no real asset assessed | 3 | 3 | FAQ: attempted exploit activity; TSF collection | Log-search output distinguishes suspicious values; preserve TSF before upgrade. | Executable search and interpretation; attempts require correlation. | Current reviewed version; no asset effectiveness test | Codex-assisted draft; human review pending | 2026-10-28 | v0.2; P3400-A pilot memo |
@@ -166,7 +171,7 @@ One synthesis record represents one CVE × evidence category.
 | CVE-2024-3400 | E4 | A1 in P3400-A | 3 | S012, S013 | 3 | S013 | Strongest evidence concerns encryption settings; rotation, revocation and session coverage remain separate. | Timing, scenario and version differences retained | Separate maxima; neither an average nor a combined sufficient procedure |
 | CVE-2024-3400 | E5 | A1 in P3400-A | 2 | S001, S006, S009 | 3 | S009 | Restoration observations support recovery; support access and product-specific procedures still matter. | Timing, scenario and version differences retained | Separate maxima; neither an average nor a combined sufficient procedure |
 | CVE-2024-3400 | E6 | A1 in P3400-A | 3 | S001, S010 | 3 | S001, S010 | Fixed-build and mitigation checks are distinct from compromise assessment. | Timing, scenario and version differences retained | Separate maxima; neither an average nor a combined sufficient procedure |
-| CVE-2024-3400 | E7 | A1 in P3400-A | 2 | S010 | 3 | S010 | Credit is limited to technical response disposition; explicit residual-risk acceptance and closure authorization are not identified. | FAQ meaning and E7 boundary require human review | Separate maxima; neither an average nor a combined sufficient procedure |
+| CVE-2024-3400 | E7 | A1 in P3400-A | 2 | S010 | 3 | S010 | Credit is limited to technical response disposition; explicit residual-risk acceptance and closure authorization are not identified. | FAQ meaning and E7 boundary require researcher review | Separate maxima; neither an average nor a combined sufficient procedure |
 
 The two maxima are calculated separately from eligible scored records. They may originate from different documents and do not constitute an integrated response procedure. Ordinal scores are not averaged.
 
@@ -196,6 +201,12 @@ Time entries reflect actual recorded work. Missing time records remain missing r
 
 | Date | Record IDs | Review type | Issue identified | Decision | Recode required | Completion status |
 |---|---|---|---|---|---|---|
-| 2026-10-28 | P3400-001 to P3400-070 and seven synthesis records | AI-assisted first pass; structural consistency check | Scenario dependence, E7 boundary, version differences, raw-capture limitation | Preserve provisional status; independent validation not claimed | If review changes anchors or scenario | Human review pending |
+| 2026-10-28 | P3400-001 to P3400-070 and seven synthesis records | Initial draft; structural consistency check | Scenario dependence, E7 boundary, version differences, raw-capture limitation | Preserve provisional status; independent validation not claimed | If review changes anchors or scenario | Researcher review pending |
 
 Independent coding and delayed self-recoding are recorded distinctly. Methodological revisions retain their rationale and affected records. Pilot cases must be recoded under the frozen protocol before inclusion with main-study results.
+
+## November 9 provenance note
+The original record-level Codex-assisted draft labels are retained. Later source checks and researcher decisions are separate events; no independent human review is recorded by the repository consolidation. See the [combined review checklist](../research-notes/2026-11-09-review-checklist.md).
+
+## November 9 researcher decisions
+See the [researcher decision register](../research-notes/2026-11-09-researcher-decisions.md) and [record-level review overlay](researcher-review-2026-11-09.csv). The researcher reports source review of the historical rows. Original scores and first-pass provenance are retained as historical records; the separate overlay distinguishes accepted decisions, unresolved interpretations and missing historical versions. No independent agreement statistic is claimed.

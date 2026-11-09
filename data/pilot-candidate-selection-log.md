@@ -1,8 +1,9 @@
 # Pilot Candidate Selection Log
 
 **Project:** Beyond the Patch  
-**Updated:** 2026-10-28  
-**Status:** Seven candidates screened; five selected for the pilot; source retrieval incomplete; coding not started
+**Updated:** 2026-11-09; October 28 selection retained
+
+**Status (updated 2026-11-09):** Seven candidates screened; five selected; PAN-OS 70, MOVEit 84 and Outlook 21 first-pass category records; Print Spooler and Log4j not yet coded
 
 ## Method and Sampling Frame
 
@@ -70,13 +71,13 @@ Categories are analytical deployment labels, not claims that a product can only 
 
 ## Retrieval Limitations and Remaining Work
 
-The [source register](source.md) contains one inspected official starting document per selected CVE. Vendor, government/CSIRT, and eligible direct-link retrieval remains incomplete for every case.
+The October 28 starting register was subsequently expanded for PAN-OS; its bounded first-pass source review and 70 original coding records are documented. A separate [November 3 MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) has 84 first-pass records across 12 document units; bounded screening is complete with access/version limitations. The other three cases retain starting sources. The full five-case source set is incomplete.
 
 Direct CISA advisory access returned HTTP 403 in the browsing interface. This is an access limitation, not evidence of absent guidance. The official KEV dataset was accessible through CISA's GitHub repository.
 
 The Apache legacy security URL redirected to the consolidated security page. Current page content is the reviewed version; no historical disclosure-date reconstruction is claimed.
 
-Before scoring, retain accessible document versions where permitted, screen the remaining source categories and eligible direct links consistently, and record the resulting source boundaries. Pilot scoring, findings, supervisor approval of this roster, and independent validation are not claimed.
+For remaining retrieval/coding, retain accessible document versions where permitted, screen eligible links consistently, and record boundaries. PAN-OS first-pass and supplemental MOVEit scoring are recorded, but completed-pilot findings and independent validation are not claimed.
 
 ## Decision History
 
@@ -84,3 +85,6 @@ Before scoring, retain accessible document versions where permitted, screen the 
 |---|---|---|
 | 2026-10-28 | Screen seven candidates and select five for pilot retrieval | KEV membership, accessible official context, and deployment/mechanism diversity |
 
+
+## November 9 progress
+The [Outlook increment](outlook-pilot-2026-11-09.md) starts the third selected case. Its three primary documents are coded; linked-source screening continues. The selected roster and historical selection reasons are unchanged.
