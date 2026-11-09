@@ -1,12 +1,12 @@
 # Repository and data quality review
-Date: 2026-11-03  
-Baseline commit: a1f5996e6af52ce7870dac5581021b68743ba328  
+Date: 2026-11-03\
+Baseline commit: a1f5996e6af52ce7870dac5581021b68743ba328\
 Scope: Historical November 3 work-package checks; targeted external-source review, independent coding review outstanding.
 
 ## November 9 publication-layout correction
 The PASS results below describe the earlier work-package layout, not a verified state of the subsequent GitHub upload. Inspection of commit 3fb0fb1 found 30 unresolved relative file-link occurrences, including seven in README.md. Root-level uploads and older directory copies created conflicting current records. The November 9 consolidation corrects the layout; see the [current validation report](2026-11-09-validation-report.md).
 
-## Every baseline file accounted for
+## Baseline file coverage
 | File | Review and disposition |
 |---|---|
 | README.md | Read in full; updated stale phase, sampling, scoring, visibility and sequencing. |
@@ -20,7 +20,7 @@ The PASS results below describe the earlier work-package layout, not a verified 
 | data/kev-snapshot-2026-10-28.json | Parsed entire 1,760-entry file; checked count, unique identifiers, dates, target membership and byte identity. No assertion that every vulnerability description was semantically validated. |
 | weekly-progress/2026-10-12-weekly-progress.md | Read in full; preserved historical progress unchanged; added a separate November 3 entry. |
 
-## Reproducible data checks
+## Recorded data checks
 | Check | Result | Evidence |
 |---|---|---|
 | Original PAN-OS analytical fields preserved | PASS | All analytical fields in the 70 records match the baseline; review-status metadata was standardized. |
@@ -63,4 +63,4 @@ The PASS results below describe the earlier work-package layout, not a verified 
 The initial Windows checkout had SHA-256 4780e2d7fbbbd58761f8ad3450246905260db071fa08af400b07b01e9f7ecc5e because Git converted line endings to CRLF. The committed blob and LF-normalized content both matched the documented snapshot hash. The delivered snapshot restores the exact committed bytes; a narrow .gitattributes rule disables future text conversion for KEV snapshot JSON. No catalog entry was edited.
 
 ## Limits
-Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; a full independent recoding of the 70 records remains outstanding. MOVEit has 84 first-pass records across 12 document units; bounded source screening is complete with access/version limitations and researcher verification outstanding. Its remaining three pilot peers are uncoded. Full-text literature appraisal and the main study remain unfinished.
+Passing structural checks does not validate passage interpretations or prove that a source set is complete. PAN-OS historical HTML captures are not in this repository. The November 3 audit re-read selected live passages and recorded version risks; a full independent recoding of the 70 records remains outstanding. MOVEit has 84 first-pass records across 12 document units; bounded source screening is complete with access/version limitations and first-pass coding documented at that date. Subsequent review and Outlook progress are described above. Full-text literature appraisal and the main study remain unfinished.

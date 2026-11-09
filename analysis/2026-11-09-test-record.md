@@ -13,3 +13,6 @@ node analysis/validate-repository.mjs
 ~~~
 
 The command regenerates the two reports and returns a nonzero exit status if any check fails. It does not contact production assets. External live-page checks are recorded as source observations with locators, not detection experiments. Future technical experiments require a specified artifact, environment, expected outcome and observed result before inclusion as completed tests.
+
+## Validator robustness checks
+Four temporary fault injections were detected: an out-of-range Outlook score, a wrong summary source with unchanged numerical maxima, a missing relative file target and a score revision assigned to the wrong source. Each change was restored before the final run. The [audit report](2026-11-09-full-audit.md) records the expected detectors and outcomes.

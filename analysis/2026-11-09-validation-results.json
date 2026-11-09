@@ -94,7 +94,7 @@
     {
       "name": "Relative Markdown file links",
       "status": "PASS",
-      "detail": "84 local link occurrences checked; 0 unresolved"
+      "detail": "108 local link occurrences checked; 0 unresolved"
     },
     {
       "name": "Consolidated locations",
@@ -120,6 +120,66 @@
       "name": "Reported review dates kept distinct",
       "status": "PASS",
       "detail": "Receipt date does not substitute for unknown source-inspection dates"
+    },
+    {
+      "name": "PAN-OS full grid and metadata",
+      "status": "PASS",
+      "detail": "Ten source units, all seven categories, 16 complete fields and valid scores/dates"
+    },
+    {
+      "name": "MOVEit full grid and numerical ranges",
+      "status": "PASS",
+      "detail": "Twelve source units and all seven categories; complete rows and 0–3 values"
+    },
+    {
+      "name": "Historical source references",
+      "status": "PASS",
+      "detail": "Every scored PAN-OS/MOVEit source has a register entry"
+    },
+    {
+      "name": "PAN-OS summary maxima and attribution",
+      "status": "PASS",
+      "detail": "All seven historical maxima and complete supporting-source sets match records"
+    },
+    {
+      "name": "MOVEit historical maxima and attribution",
+      "status": "PASS",
+      "detail": "All seven original-series maxima and supporting-source sets match records"
+    },
+    {
+      "name": "Outlook Markdown and CSV agreement",
+      "status": "PASS",
+      "detail": "All 21 mirrored observations, locators and scores agree"
+    },
+    {
+      "name": "Outlook summary source attribution",
+      "status": "PASS",
+      "detail": "All seven maxima and complete supporting-source sets match the CSV"
+    },
+    {
+      "name": "Score-revision integrity",
+      "status": "PASS",
+      "detail": "Revisions reference real rows and match original values before applying current scores"
+    },
+    {
+      "name": "Selection dates and roster",
+      "status": "PASS",
+      "detail": "All seven candidate KEV dates and the five selected cases agree with the retained snapshot"
+    },
+    {
+      "name": "Outlook source metadata",
+      "status": "PASS",
+      "detail": "Access series, CVE, publication dates and official source URLs are populated"
+    },
+    {
+      "name": "Root duplicate inventory",
+      "status": "PASS",
+      "detail": "Only README.md and .gitattributes at the root"
+    },
+    {
+      "name": "KEV addition dates",
+      "status": "PASS",
+      "detail": "All retained addition dates are formatted, parseable and on/before the snapshot retrieval date"
     }
   ],
   "maxima": [
