@@ -4,6 +4,10 @@
 **Status:** Working protocol  
 **Researcher:** Leena Sai Sree Maridi, Saint Louis University
 
+## Current revision note — 2026-11-03
+
+This v0.2 document is retained as the basis of the October 28 records. New draft coding uses the explicit clarifications in [pilot rules v0.3](pilot-rules-v0.3-draft.md). This is not a retroactive claim that v0.3 was used earlier or that the main-study protocol is frozen.
+
 ## 1. Objective and questions
 
 Identify and characterize recurring **gaps**, **ambiguities**, and **inconsistencies** in publicly accessible official guidance concerning possible prior exploitation and evidence-supported closure of selected CISA Known Exploited Vulnerabilities (KEV).

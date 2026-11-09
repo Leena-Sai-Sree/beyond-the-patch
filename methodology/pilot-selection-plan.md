@@ -1,5 +1,5 @@
 # Five-CVE Pilot Selection Plan
-**Status:** Selection criteria established
+**Status:** Five pilot CVEs selected on 2026-10-28; pilot analysis in progress
 
 ## Purpose
 Test the coding framework rather than prove the research hypothesis. Use the official CISA KEV Catalog as the candidate frame and retain its retrieval date.
@@ -23,4 +23,7 @@ Select five cases spanning at least three product categories (e.g., network appl
 4. Register all official documents, then time retrieval and coding.
 5. Record problems and revise rules before selecting up to 20 additional CVEs.
 
-**Important:** No actual pilot CVEs have been verified or selected in this file; do not describe the pilot as completed.
+**Current status (2026-11-03):** The [candidate log](../data/pilot-candidate-selection-log.md) records five selected cases. PAN-OS has an original first-pass worksheet; MOVEit has a dated supplement; the remaining three cases are uncoded. Selection is complete, but the five-case pilot is not.
+
+## November 9 status
+Outlook now has a [21-record increment](../data/outlook-pilot-2026-11-09.md). Print Spooler and Log4j remain uncoded; pilot completion is not claimed. Earlier dated statements above describe their own observation dates.
