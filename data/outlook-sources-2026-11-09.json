@@ -1,0 +1,41 @@
+[
+  {
+    "id": "N23397-S001",
+    "publisher": "Microsoft Incident Response",
+    "title": "Guidance for investigating attacks using CVE-2023-23397",
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/03/24/guidance-for-investigating-attacks-using-cve-2023-23397/",
+    "publication": "2023-03-24",
+    "update": "Visible update notes through 2024-02-15; comprehensive revision history unavailable",
+    "route": "Primary official document for this initial source set",
+    "access_date": "2026-11-09",
+    "capture": "Rendered web text; complete raw capture not retained",
+    "cve": "CVE-2023-23397",
+    "last_checked": "2026-11-10"
+  },
+  {
+    "id": "N23397-S002",
+    "publisher": "CERT-EU",
+    "title": "Security Advisory 2023-018: Microsoft Outlook Elevation of Privilege Vulnerability",
+    "url": "https://cert.europa.eu/publications/security-advisories/2023-018/",
+    "publication": "2023-03-15",
+    "update": "v1.0 dated 2023-03-15",
+    "route": "Primary official document for this initial source set",
+    "access_date": "2026-11-09",
+    "capture": "Rendered web text; complete raw capture not retained",
+    "cve": "CVE-2023-23397",
+    "last_checked": "2026-11-10"
+  },
+  {
+    "id": "N23397-S003",
+    "publisher": "Canadian Centre for Cyber Security",
+    "title": "AL23-002: Microsoft Outlook zero-day vulnerability allowing NTLM credential theft",
+    "url": "https://www.cyber.gc.ca/en/alerts-advisories/microsoft-outlook-zero-day-vulnerability-allowing-ntlm-credential-theft",
+    "publication": "2023-03-15",
+    "update": "Displayed modified date 2023-03-15",
+    "route": "Primary official document for this initial source set",
+    "access_date": "2026-11-09",
+    "capture": "Rendered web text; complete raw capture not retained",
+    "cve": "CVE-2023-23397",
+    "last_checked": "2026-11-10"
+  }
+]
