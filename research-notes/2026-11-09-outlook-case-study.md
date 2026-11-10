@@ -46,7 +46,7 @@ E3 credit concerns access restriction, not demonstrated isolation of a compromis
 
 ## Coding check: November 10
 
-O23397-016, the Canadian alert’s investigation row, now has actionability 1 and evidence specificity 1. Its periodic detection instruction warrants general evidence credit. It does not specify an output field, suspicious-value test or result interpretation in the alert itself. The earlier package assigned evidence 0; that omitted the general detection instruction. The other 20 score pairs and all seven summary maxima are unchanged.
+O23397-016, the Canadian alert’s investigation row, now has actionability 1 and evidence specificity 1. Its periodic detection instruction warrants general evidence credit. It does not specify an output field, suspicious-value test or result interpretation in the alert itself. The evidence score was revised from 0 to 1 on November 10 to credit the alert’s general detection instruction. The other 20 score pairs and all seven summary maxima are unchanged.
 
 The main distinction in E7 is between an investigative next step and response disposition. Advice to investigate, report suspicious activity or preserve evidence does not by itself meet the pilot rule for closing or transitioning the response.
 
