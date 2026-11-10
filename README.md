@@ -206,7 +206,7 @@ See the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md),
 [November 3 progress record](weekly-progress/2026-11-03-weekly-progress.md)
 and [data quality report](analysis/data-quality-report.md).
 
-## Planned Repository Structure
+## Repository Structure
 
 | Location | Purpose |
 |---|---|
@@ -217,8 +217,6 @@ and [data quality report](analysis/data-quality-report.md).
 | data/ | Source register and coding records |
 | analysis/ | Comparative analysis and supporting scripts where needed |
 | deliverables/ | Research reports, checklist, and presentation materials |
-
-Folders will be created as their contents are developed.
 
 ## Research Documentation
 
