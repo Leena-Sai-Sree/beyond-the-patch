@@ -1,8 +1,9 @@
 # Pilot Source Register
 
 **Project:** Beyond the Patch  
-**Updated:** 2026-10-28  
-**Status:** PAN-OS first-pass source review and coding documented below; remaining four CVEs retain initial source records
+**Updated:** 2026-11-03; historical source entries remain dated October 28
+
+**Status (current note 2026-11-03):** Historical PAN-OS source review preserved below; separate November 3 PAN-OS review and MOVEit supplement linked at the end. The original register entries remain dated October 28.
 
 ## Collection Boundaries
 
@@ -62,7 +63,7 @@ The source set for the full five-CVE pilot remains incomplete. The worksheet rec
 
 **Case:** CVE-2024-3400  
 **Review date:** 2026-10-28  
-**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; human review pending  
+**Status:** Bounded first-pass retrieval and coding completed with access/version limitations; researcher review pending
 **Coding:** [Pilot Coding Worksheet](pilot-coding-worksheet.md#first-pilot-case-cve-2024-3400)
 
 ### Retrieval Boundary
@@ -131,3 +132,14 @@ The capture directory is a local evidence location, not an assertion that raw pa
 | CVE-2024-3400 | S015 | S001 | S006 and S011; CISA and ngCERT access failures recorded | Reviewed to the stated one-hop boundary; S014 inaccessible | First-pass review complete within recorded boundaries; access limitations remain |
 
 
+
+## November 3 supplemental observation series
+
+The October 28 source entries, dates and capture claims above remain historical records. New live renderings do not replace them.
+
+- [PAN-OS targeted review](../research-notes/2026-11-03-pan-os-review.md) registers N3400-S001 and N3400-S006 through N3400-S013 as November 3 observations related to the original versions. Current S009 recovery metadata shows an October 29 update; its rendering is not substituted for the older source.
+- [MOVEit supplement](moveit-pilot-supplement-2026-11-03.md) registers N34362-S001 through N34362-S012, with 84 first-pass coding records, source dates, section locators and a completed screening log. Inaccessible guidance and version-mismatched manuals remain explicit limitations.
+- All new live-source observations use rendered web/PDF review; full raw captures are not claimed. Original PAN-OS HTML capture files are absent from this checkout.
+- The [data quality report](../analysis/data-quality-report.md) distinguishes snapshot byte identity from line-ending conversion in a Windows checkout.
+
+Temporal policy and scenario/facet clarifications are in the [v0.3 pilot draft](../methodology/pilot-rules-v0.3-draft.md). The full five-case source set is not complete.

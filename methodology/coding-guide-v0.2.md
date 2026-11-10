@@ -2,6 +2,10 @@
 **Date:** 2026-10-15 
 **Status:** Working draft;
 
+## Current revision note — 2026-11-03
+
+This v0.2 document is retained as the basis of the October 28 records. New draft coding uses the explicit clarifications in [pilot rules v0.3](pilot-rules-v0.3-draft.md). This is not a retroactive claim that v0.3 was used earlier or that the main-study protocol is frozen.
+
 ## Coding sequence
 1. Verify CVE is in the frozen KEV snapshot.
 2. Register each eligible official document with URL, dates, and section references.
