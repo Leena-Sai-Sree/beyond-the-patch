@@ -182,8 +182,11 @@ Status updated 2026-11-10:
 - [MOVEit CVE-2023-34362 supplemental coding](data/moveit-pilot-supplement-2026-11-03.md)
   contains 84 first-pass records for 12 document units. The bounded source
   review is complete with documented access and version limitations.
-- Outlook CVE-2023-23397, Print Spooler CVE-2021-34527 and Log4j
-  CVE-2021-44228 retain starting source records and remain uncoded.
+- [Outlook CVE-2023-23397 initial analysis](research-notes/2026-11-09-outlook-case-study.md)
+  contains 21 coding records across three official documents.
+  Linked-source review continues.
+- Print Spooler CVE-2021-34527 and Log4j CVE-2021-44228 retain
+  starting source records and remain uncoded.
 - An [initial related-work matrix](research-notes/related-work-initial-review.md)
   has been prepared; full-text literature appraisal remains outstanding.
 
@@ -196,7 +199,7 @@ still in progress.
 1. Complete the PAN-OS verification queue and apply consistent scenario,
    E4/E6/E7 and source-version rules.
 2. Verify the MOVEit records and resolve any coding changes raised by review.
-3. Begin Outlook, then Print Spooler and Log4j, recording actual work time.
+3. Complete Outlook’s linked-source review, then begin Print Spooler and Log4j.
 4. Write the full pilot revision memo and freeze the method after resolving open items.
 5. Size/select the main study using observed effort; complete related-work appraisal.
 6. Produce comparative findings, a traceable closure checklist and the agreed
