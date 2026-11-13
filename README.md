@@ -171,7 +171,7 @@ research, supervisor review, and suitable venue requirements.
 
 ## Current Progress
 
-Status updated 2026-11-10:
+Status updated 2026-11-13:
 
 - Protocol/codebook v0.2, selection criteria and a dated KEV snapshot are recorded.
 - Seven candidates were screened and five pilot CVEs selected on October 28.
