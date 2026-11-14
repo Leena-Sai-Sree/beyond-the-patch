@@ -30,7 +30,7 @@ The preserved manifest is `capture-manifest.json` in the same local directory. S
 
 ## Implication for review
 
-The recovered S009 rendering permits historical review of P3400-029–035 without substituting the later October 29 recovery-article revision. The other seven files permit checks of their corresponding original document-category records. The [targeted review queue](2026-11-03-pan-os-review.md) remains the record-level starting point.
+The recovered S009 rendering permits historical review of P3400-029–035 without substituting the later October 29 recovery-article revision. The other seven files permit checks of their corresponding original document-category records. The [targeted review queue](../research-notes/2026-11-03-pan-os-review.md) remains the record-level starting point.
 
 A hash match establishes agreement with the recorded bytes. It does not validate the coding interpretation, demonstrate source-search completeness, or constitute independent second-coder agreement.
 
