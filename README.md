@@ -12,7 +12,7 @@
 | School | School for Professional Studies |
 | Supervisor | Maria Weber, Program Director of Cybersecurity |
 | Appointment period | October 5–December 18, 2026 |
-| Research status | Five-case pilot in progress; PAN-OS first pass recorded; MOVEit supplement started |
+| Research status | Five-case pilot in progress; first-pass records available for all five cases; source and coding review ongoing |
 
 ## Project Overview
 
@@ -171,7 +171,7 @@ research, supervisor review, and suitable venue requirements.
 
 ## Current Progress
 
-Status updated 2026-11-13:
+Status updated 2026-11-14:
 
 - Protocol/codebook v0.2, selection criteria and a dated KEV snapshot are recorded.
 - Seven candidates were screened and five pilot CVEs selected on October 28.
@@ -184,9 +184,11 @@ Status updated 2026-11-13:
   review is complete with documented access and version limitations.
 - [Outlook CVE-2023-23397 initial analysis](research-notes/2026-11-09-outlook-case-study.md)
   contains 21 coding records across three official documents.
-  Linked-source review continues.
-- Print Spooler CVE-2021-34527 and Log4j CVE-2021-44228 retain
-  starting source records and remain uncoded.
+  A [November 14 archived-script supplement](data/outlook-follow-up-2026-11-14.md) adds seven draft records in a separate series. Linked-source review continues.
+- [Print Spooler CVE-2021-34527](data/print-spooler-pilot-2026-11-14.md) has 28 new draft records across four documents.
+- [Log4j CVE-2021-44228](data/log4j-pilot-2026-11-14.md) has 21 new draft records across three documents.
+- The November 14 additions total 56 records in a separate dated series. Their [review memo](analysis/2026-11-14-pilot-expansion-review.md) records coding boundaries and provisional maxima; the [screening log](research-notes/2026-11-14-source-screening.md) records pending sources.
+- Seven [MOVEit extortion-sensitivity records](data/moveit-guide-sensitivity-2026-11-14.md) remain separate from the original case and the 56-record expansion.
 - An [initial related-work matrix](research-notes/related-work-initial-review.md)
   has been prepared; full-text literature appraisal remains outstanding.
 
@@ -199,14 +201,14 @@ still in progress.
 1. Complete the PAN-OS verification queue and apply consistent scenario,
    E4/E6/E7 and source-version rules.
 2. Verify the MOVEit records and resolve any coding changes raised by review.
-3. Complete Outlook’s linked-source review, then begin Print Spooler and Log4j.
+3. Complete the pending source decisions and review the new Outlook, Print Spooler and Log4j records before combining the pilot findings.
 4. Write the full pilot revision memo and freeze the method after resolving open items.
 5. Size/select the main study using observed effort; complete related-work appraisal.
 6. Produce comparative findings, a traceable closure checklist and the agreed
    report/presentation deliverables.
 
 See the [delivery roadmap](deliverables/research-roadmap-2026-11-03.md),
-[November 3 progress record](weekly-progress/2026-11-03-weekly-progress.md)
+[November 14 pilot-expansion progress](weekly-progress/2026-11-14-pilot-expansion.md)
 and [data quality report](analysis/data-quality-report.md).
 
 ## Repository Structure
