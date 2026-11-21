@@ -1,0 +1,5 @@
+"decision_id","record_id","date","old_a","old_e","new_a","new_e","reason","reviewer"
+"R09-M34362-007","M34362-007","2026-11-09","0","0","2","3","Technical disposition for stated cleanup checks only; no administrative closure","Earlier researcher decision as recorded in repository"
+"R09-O23397-009","O23397-009","2026-11-09","2","3","2","3","Investigation and evidence preservation","Earlier researcher decision as recorded in repository"
+"R09-O23397-012","O23397-012","2026-11-09","0","0","0","0","Preservation warning does not supply a recovery procedure","Earlier researcher decision as recorded in repository"
+"R21-01","L44228-N14-L04-05","2026-11-21","1","0","0","0","IT/cloud step 3.B refers readers to incident-response guidance. No compatible eradication, rebuild or restoration procedure is supplied in this document; linked instructions are separate units.","Codex retained-text review; researcher acceptance pending"
